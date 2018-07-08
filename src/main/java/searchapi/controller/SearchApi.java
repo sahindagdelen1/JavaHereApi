@@ -1,16 +1,15 @@
 package searchapi.controller;
 
 public class SearchApi {
-    public SearchApi() {
-    }
+    private String appId;
+    private String appCode;
+
 
     public SearchApi(String appId, String appCode) {
         this.appId = appId;
         this.appCode = appCode;
     }
 
-    private String appId;
-    private String appCode;
 
     public String getAppId() {
         return appId;
