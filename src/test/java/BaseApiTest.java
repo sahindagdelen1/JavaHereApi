@@ -17,8 +17,15 @@ public class BaseApiTest {
     public BaseApiTest() {
     }
 
+    public BaseApiTest(String appId, String appCode) {
+        this.appId = appId;
+        this.appCode = appCode;
+    }
+
     CloseableHttpClient httpClient;
     String baseUrl = "http://localhost:9090";
+    private String appId;
+    private String appCode;
 
     @Rule
     public WireMockRule mockRule = new WireMockRule(9090);
@@ -31,28 +38,19 @@ public class BaseApiTest {
          httpClient = HttpClients.createDefault();
     }
 
-    private String convertInputStreamToString(InputStream inputStream)  throws IOException{
-        Scanner scanner = new Scanner(inputStream,"UTF-8");
-        String responseString = scanner.useDelimiter("\\Z").next();
-        scanner.close();
-        return responseString;
+    public String getAppId() {
+        return appId;
     }
 
-    public String convertHttpResponseToString(HttpResponse httpResponse) throws IOException {
-        InputStream inputStream = httpResponse.getEntity().getContent();
-        return convertInputStreamToString(inputStream);
+    public void setAppId(String appId) {
+        this.appId = appId;
     }
 
-    public HttpResponse getHttpResponseFromUrl(String url){
-        HttpGet request = new HttpGet(url);
-        request.addHeader(HttpHeaders.CONTENT_TYPE, "application/json");
-        HttpResponse httpResponse;
-        try {
-            httpResponse = httpClient.execute(request);
-        }catch (Exception ex){
-            return null;
-        }
-        return httpResponse;
+    public String getAppCode() {
+        return appCode;
     }
 
+    public void setAppCode(String appCode) {
+        this.appCode = appCode;
+    }
 }
