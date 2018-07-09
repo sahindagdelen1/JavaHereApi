@@ -7,9 +7,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-import javax.ejb.Stateless;
 import javax.ws.rs.core.MultivaluedMap;
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,8 +21,7 @@ public class ApacheHttpRestClient {
     private Gson json;
     private Gson jsonTicksDate;
 
-    @PostConstruct
-    public void init(){
+    public ApacheHttpRestClient() {
         httpClient = HttpClients.createDefault();
         json = new GsonBuilder().create();
         GsonBuilder builderT = new GsonBuilder();
@@ -40,17 +36,6 @@ public class ApacheHttpRestClient {
         jsonTicksDate = builderT.create();
     }
 
-    @PreDestroy
-    private void cleanUp(){
-        if(httpClient!=null){
-            try {
-                httpClient.close();
-            }catch (Exception ex){
-                httpClient = null;
-            }
-
-        }
-    }
 
     public HttpResponse getObjectHttpResponse(String url) {
         try {
@@ -87,7 +72,7 @@ public class ApacheHttpRestClient {
         return null;
     }
 
-    private String convertInputStreamToString(InputStream inputStream)  throws IOException {
+    public String convertInputStreamToString(InputStream inputStream) throws IOException {
         Scanner scanner = new Scanner(inputStream,"UTF-8");
         String responseString = scanner.useDelimiter("\\Z").next();
         scanner.close();
