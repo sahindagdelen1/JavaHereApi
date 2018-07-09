@@ -38,7 +38,7 @@ public class SearchApiTest extends BaseApiTest {
                 .willReturn(aResponse().withStatus(401)));
         String responseJson = searchApi.autoSuggest(40.9892, 28.7792, "istanbul");
         assertNotNull(responseJson);
-        assertEquals(responseJson, containing("{\"status\":401,\"message\":\"Invalid app_id app_code combination\"}"));
+        assertEquals(responseJson, ("{\"status\":401,\"message\":\"Invalid app_id app_code combination\"}"));
     }
 
 
