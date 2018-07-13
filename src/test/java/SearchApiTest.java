@@ -1,5 +1,6 @@
 import client.CustomClientBuilder;
 import com.github.tomakehurst.wiremock.http.Fault;
+import conf.AppParams;
 import io.dropwizard.testing.FixtureHelpers;
 import org.apache.http.HttpHeaders;
 import org.apache.http.HttpResponse;
@@ -8,6 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import searchapi.controller.SearchApi;
+import searchapi.entity.BrowseLocationType;
 
 import javax.ws.rs.core.MediaType;
 import java.io.IOException;
@@ -90,7 +92,7 @@ public class SearchApiTest extends BaseApiTest {
 
 
     @Test
-    public void autoSuggestEmptyResponse() throws IOException {
+    public void discoverSearchEmptyResponse() throws IOException {
         CustomClientBuilder customClientBuilder = new CustomClientBuilder();
         mockRule.stubFor(get(urlPathEqualTo("/places/v1/discover/search"))
                 .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
@@ -109,7 +111,7 @@ public class SearchApiTest extends BaseApiTest {
 
     @Test
     public void categoriesWhenFails() throws IOException {
-        stubFor(get(urlPathEqualTo("/places/v1/categories/places"))
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_PLACES))
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
                 .withQueryParam("at", equalTo("40.9892,28.7792"))
                 .withQueryParam("app_id", equalTo("appid"))
@@ -126,7 +128,7 @@ public class SearchApiTest extends BaseApiTest {
 
     @Test
     public void categoriesWhenSucceeds() {
-        stubFor(get(urlPathEqualTo("/places/v1/categories/places"))
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_PLACES))
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
                 .withQueryParam("at", equalTo("40.9892,28.7792"))
                 .withQueryParam("app_id", equalTo("appid"))
@@ -139,13 +141,49 @@ public class SearchApiTest extends BaseApiTest {
         assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/searchApiGetCategories.json"));
         assertNotNull(jsonResponse);
         assertThat(jsonResponse, containsString("items"));
-        verify(1, getRequestedFor(urlPathEqualTo("/places/v1/categories/places")));
+        verify(1, getRequestedFor(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_PLACES)));
     }
 
     @Test
-    public void objectExist() {
+    public void objectExists() {
         SearchApi searchApi = new SearchApi("app_id", "app_code", baseUrl);
         assertNotNull(searchApi);
+    }
+
+    @Test
+    public void browseWhenFails() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_BROWSE_PLACES))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("in", equalTo("52.521,13.3807;r=2000"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("cat", equalTo("petrol-station"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED)
+                        .withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON)
+                        .withBody(FixtureHelpers.fixture("fixtures/unauthorized.json"))));
+
+        String jsonResponse = searchApi.browse(52.521, 13.3807, 2000, BrowseLocationType.IN, "petrol-station");
+        assertNotNull(jsonResponse);
+        assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/unauthorized.json"));
+        verify(1, getRequestedFor(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_BROWSE_PLACES)));
+    }
+
+    @Test
+    public void browseWhenSucceds() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_BROWSE_PLACES))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("in", equalTo("52.521,13.3807;r=2000"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("cat", equalTo("petrol-station"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK)
+                        .withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON)
+                        .withBody(FixtureHelpers.fixture("fixtures/browseSuccess.json"))));
+
+        String jsonResponse = searchApi.browse(52.521, 13.3807, 2000, BrowseLocationType.IN, "petrol-station");
+        assertNotNull(jsonResponse);
+        assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/browseSuccess.json"));
+        verify(1, getRequestedFor(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_BROWSE_PLACES)));
     }
 
 }
