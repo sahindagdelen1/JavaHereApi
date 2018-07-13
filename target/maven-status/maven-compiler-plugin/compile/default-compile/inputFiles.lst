@@ -1,15 +1,16 @@
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Location.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\controller\SearchApi.java
+D:\Workspace-Real\JHereApi\src\main\java\client\CustomClientBuilder.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Tag.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Item.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Context.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Search.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Address.java
 D:\Workspace-Real\JHereApi\src\main\java\conf\AppParams.java
+D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\BrowseLocationType.java
 D:\Workspace-Real\JHereApi\src\main\java\base\CustomResponse.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Category.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Results.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Example.java
 D:\Workspace-Real\JHereApi\src\main\java\conf\ReturnMessages.java
-D:\Workspace-Real\JHereApi\src\main\java\client\ApacheHttpRestClient.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\AlternativeName.java
