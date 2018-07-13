@@ -1,29 +1,33 @@
-import client.ApacheHttpRestClient;
+import client.CustomClientBuilder;
 import com.github.tomakehurst.wiremock.http.Fault;
+import io.dropwizard.testing.FixtureHelpers;
 import org.apache.http.HttpHeaders;
 import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import searchapi.controller.SearchApi;
 
+import javax.ws.rs.core.MediaType;
 import java.io.IOException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
+import static com.github.tomakehurst.wiremock.client.WireMock.equalTo;
+import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 
 
 public class SearchApiTest extends BaseApiTest {
 
-
     private SearchApi searchApi;
-    ApacheHttpRestClient apacheHttpRestClient;
+    CustomClientBuilder customClientBuilder;
 
     @Before
     public void setUp() {
-        apacheHttpRestClient = new ApacheHttpRestClient();
+        customClientBuilder = new CustomClientBuilder();
         searchApi = new SearchApi("appid", "appcode", baseUrl);
-        searchApi.setApacheHttpRestClient(apacheHttpRestClient);
+        searchApi.setCustomClientBuilder(customClientBuilder);
     }
 
     @After
@@ -86,21 +90,56 @@ public class SearchApiTest extends BaseApiTest {
 
 
     @Test
-    public void emptyResponse() throws IOException {
-        ApacheHttpRestClient apacheHttpRestClient = new ApacheHttpRestClient();
+    public void autoSuggestEmptyResponse() throws IOException {
+        CustomClientBuilder customClientBuilder = new CustomClientBuilder();
         mockRule.stubFor(get(urlPathEqualTo("/places/v1/discover/search"))
                 .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
                 .willReturn(aResponse().withFault(Fault.EMPTY_RESPONSE)));
 
-        HttpResponse httpResponse = apacheHttpRestClient.getObjectHttpResponse(baseUrl + "/places/v1/discover/search");
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(baseUrl + "/places/v1/discover/search");
         assertNull(httpResponse);
 
         mockRuleTwo.stubFor(get(urlPathEqualTo("/places/v1/discover/search"))
                 .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
                 .willReturn(aResponse().withFault(Fault.CONNECTION_RESET_BY_PEER)));
 
-        httpResponse = apacheHttpRestClient.getObjectHttpResponse(baseUrl + "/places/v1/discover/search");
+        httpResponse = customClientBuilder.getObjectHttpResponse(baseUrl + "/places/v1/discover/search");
         assertNull(httpResponse);
+    }
+
+    @Test
+    public void categoriesWhenFails() throws IOException {
+        stubFor(get(urlPathEqualTo("/places/v1/categories/places"))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("at", equalTo("40.9892,28.7792"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode")).willReturn(aResponse().withStatus(401).withBody("{ \"status\" : 401, \"message\" : \"Invalid app_id app_code combination\" }")));
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(baseUrl + "/places/v1/categories/places?at=40.9892,28.7792&app_id=appid&app_code=appcode");
+        assertThat(httpResponse.getStatusLine().getStatusCode(), is(HttpStatus.SC_UNAUTHORIZED));
+        assertThat(httpResponse.getStatusLine().getStatusCode(), not(HttpStatus.SC_OK));
+
+        String jsonResponse = searchApi.getCategories(40.9892, 28.7792);
+        assertNotNull(jsonResponse);
+        assertThat(jsonResponse, containsString("401"));
+    }
+
+    @Test
+    public void categoriesWhenSucceeds() {
+        stubFor(get(urlPathEqualTo("/places/v1/categories/places"))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("at", equalTo("40.9892,28.7792"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(200)
+                        .withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON)
+                        .withBody(FixtureHelpers.fixture("fixtures/searchApiGetCategories.json"))));
+
+        String jsonResponse = searchApi.getCategories(40.9892, 28.7792);
+        assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/searchApiGetCategories.json"));
+        assertNotNull(jsonResponse);
+        assertThat(jsonResponse, containsString("items"));
+        verify(1, getRequestedFor(urlPathEqualTo("/places/v1/categories/places")));
     }
 
     @Test

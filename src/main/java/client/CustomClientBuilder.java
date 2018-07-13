@@ -7,21 +7,19 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
-import javax.ws.rs.core.MultivaluedMap;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
 import java.util.Date;
-import java.util.List;
 import java.util.Scanner;
 
-public class ApacheHttpRestClient {
+public class CustomClientBuilder {
 
     CloseableHttpClient httpClient;
     private Gson json;
     private Gson jsonTicksDate;
 
-    public ApacheHttpRestClient() {
+    public CustomClientBuilder() {
         httpClient = HttpClients.createDefault();
         json = new GsonBuilder().create();
         GsonBuilder builderT = new GsonBuilder();
@@ -47,6 +45,17 @@ public class ApacheHttpRestClient {
         }
     }
 
+    public String getJsonResponse(HttpResponse httpResponse) {
+        if (httpResponse != null && httpResponse.getStatusLine() != null) {
+            try {
+                return convertHttpResponseToString(httpResponse);
+            } catch (Exception ex) {
+                ex.printStackTrace();
+                return "";
+            }
+        }
+        return null;
+    }
     public String getObject(String url) {
         try {
             HttpResponse httpResponse = getObjectHttpResponse(url);
@@ -54,22 +63,6 @@ public class ApacheHttpRestClient {
         }catch (Exception ex){
             return null;
         }
-    }
-
-    public <T> T getObject(String basePath, String resource, Class<T> clazz, MultivaluedMap<String, String> params) {
-        return null;
-    }
-
-    public <T> List<T> toList(T[] value) {
-        return null;
-    }
-
-    public <T> T postObject(String basePath, String resource, Class<T> clazz, MultivaluedMap params) {
-        return null;
-    }
-
-    public <T> T putObject(String basePath, String resource, Class<T> clazz, Object object) {
-        return null;
     }
 
     public String convertInputStreamToString(InputStream inputStream) throws IOException {

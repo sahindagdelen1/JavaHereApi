@@ -1,0 +1,906 @@
+{
+  "items": [
+    {
+      "id": "eat-drink",
+      "title": "Yeme ve İçme",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/eat-drink?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "restaurant",
+      "title": "Lokanta",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "eat-drink"
+      ]
+    },
+    {
+      "id": "snacks-fast-food",
+      "title": "Atıştırma / Fast Food",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/snacks-fast-food?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "eat-drink"
+      ]
+    },
+    {
+      "id": "bar-pub",
+      "title": "Bar/Pub",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/22.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/bar-pub?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "eat-drink"
+      ]
+    },
+    {
+      "id": "coffee-tea",
+      "title": "Kahve/Çay",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "eat-drink"
+      ]
+    },
+    {
+      "id": "coffee",
+      "title": "Kahve",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "coffee-tea"
+      ]
+    },
+    {
+      "id": "tea",
+      "title": "Çay",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "coffee-tea"
+      ]
+    },
+    {
+      "id": "going-out",
+      "title": "Gezinti",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/05.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/going-out?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "dance-night-club",
+      "title": "Dans veya Gece Kulübü",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/33.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/dance-night-club?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "going-out"
+      ]
+    },
+    {
+      "id": "cinema",
+      "title": "Sinema",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/32.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/cinema?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "going-out"
+      ]
+    },
+    {
+      "id": "theatre-music-culture",
+      "title": "Tiyatro, Müzik ve Kültür",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/05.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/theatre-music-culture?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "going-out"
+      ]
+    },
+    {
+      "id": "casino",
+      "title": "Kumarhane",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/31.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/casino?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "going-out"
+      ]
+    },
+    {
+      "id": "sights-museums",
+      "title": "Görülecek Yerler ve Müzeler",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/10.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/sights-museums?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "landmark-attraction",
+      "title": "Kent simgesi / Eğlence",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/38.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/landmark-attraction?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "sights-museums"
+      ]
+    },
+    {
+      "id": "museum",
+      "title": "Müze",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/10.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/museum?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "sights-museums"
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Ulaşım",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/11.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/transport?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "airport",
+      "title": "Havaalanı",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/40.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/airport?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "transport"
+      ]
+    },
+    {
+      "id": "railway-station",
+      "title": "Tren İstasyonu",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/43.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/railway-station?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "transport"
+      ]
+    },
+    {
+      "id": "public-transport",
+      "title": "Toplu Ulaşım",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/11.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/public-transport?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "transport"
+      ]
+    },
+    {
+      "id": "ferry-terminal",
+      "title": "Feribot İskelesi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/41.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/ferry-terminal?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "transport"
+      ]
+    },
+    {
+      "id": "taxi-stand",
+      "title": "Taksi Durağı",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/42.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/taxi-stand?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "transport"
+      ]
+    },
+    {
+      "id": "accommodation",
+      "title": "Konaklama",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/accommodation?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "hotel",
+      "title": "Otel",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/hotel?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "accommodation"
+      ]
+    },
+    {
+      "id": "motel",
+      "title": "Motel",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/motel?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "accommodation"
+      ]
+    },
+    {
+      "id": "hostel",
+      "title": "Hostel",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/hostel?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "accommodation"
+      ]
+    },
+    {
+      "id": "camping",
+      "title": "Kamp Alanı",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/14.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/camping?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "accommodation"
+      ]
+    },
+    {
+      "id": "shopping",
+      "title": "Alışveriş",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/shopping?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "kiosk-convenience-store",
+      "title": "Büfe / 24-7 / Bakkal",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/kiosk-convenience-store?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "wine-and-liquor",
+      "title": "Şarap/Alkol",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/wine-and-liquor?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "kiosk-convenience-store"
+      ]
+    },
+    {
+      "id": "mall",
+      "title": "Alışveriş Merkezi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/mall?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "department-store",
+      "title": "Mağazalar",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/department-store?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "food-drink",
+      "title": "Yiyecek/İçecek",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/food-drink?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "bookshop",
+      "title": "Kitabevi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/bookshop?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "title": "Kimyager",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/37.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/pharmacy?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "electronics-shop",
+      "title": "Elektronik Eşyalar",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/electronics-shop?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "hardware-house-garden-shop",
+      "title": "El işleri/bahçe merkezi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/hardware-house-garden-shop?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "clothing-accessories-shop",
+      "title": "Giyim ve Aksesuar",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/clothing-accessories-shop?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "sport-outdoor-shop",
+      "title": "Dış Mekan Sporları",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/sport-outdoor-shop?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "shop",
+      "title": "Mağaza",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/09.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/shop?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "business-services",
+      "title": "İşyerleri ve Servisler",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/02.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/business-services?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "atm-bank-exchange",
+      "title": "ATM / Banka / Döviz",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/15.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/atm-bank-exchange?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "police-emergency",
+      "title": "Polis / Acil",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/19.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/police-emergency?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "ambulance-services",
+      "title": "Ambulans Hizmetleri",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/19.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/ambulance-services?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "police-emergency"
+      ]
+    },
+    {
+      "id": "fire-department",
+      "title": "İtfaiye",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/19.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/fire-department?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "police-emergency"
+      ]
+    },
+    {
+      "id": "police-station",
+      "title": "Polis Karakolu",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/19.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/police-station?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "police-emergency"
+      ]
+    },
+    {
+      "id": "post-office",
+      "title": "Postane",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/20.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/post-office?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "tourist-information",
+      "title": "Turist Bilgi Noktası",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/21.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/tourist-information?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "petrol-station",
+      "title": "Benzin İstasyonu",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/18.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/petrol-station?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "ev-charging-station",
+      "title": "Elektrikli Araç Şarj Noktası",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/81.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/ev-charging-station?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "car-rental",
+      "title": "Araç Kiralama",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/17.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/car-rental?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "car-dealer-repair",
+      "title": "Otomobil bayisi / Tamir",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/16.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/car-dealer-repair?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "travel-agency",
+      "title": "Seyahat Acentesi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/02.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/travel-agency?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "communication-media",
+      "title": "İletişim/Medya",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/02.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/communication-media?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "business-industry",
+      "title": "İşyerleri / Sanayi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/02.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/business-industry?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "service",
+      "title": "Servis",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/02.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/service?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "business-services"
+      ]
+    },
+    {
+      "id": "facilities",
+      "title": "Tesisler",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/04.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/facilities?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "hospital-health-care-facility",
+      "title": "Hastane veya Sağlık Tesisi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/26.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/hospital-health-care-facility?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "hospital",
+      "title": "Hastane",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/26.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/hospital?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "hospital-health-care-facility"
+      ]
+    },
+    {
+      "id": "government-community-facility",
+      "title": "Resmi veya Sosyal Tesisler",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/04.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/government-community-facility?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "education-facility",
+      "title": "Eğitim Tesisleri",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/25.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/education-facility?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "library",
+      "title": "Kütüphane",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/27.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/library?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "fair-convention-facility",
+      "title": "Fuarlar ve Toplantı Salonları",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/24.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/fair-convention-facility?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "parking-facility",
+      "title": "Park Yerleri",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/28.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/parking-facility?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "toilet-rest-area",
+      "title": "Umumi Tuvalet / Dinlenme Yeri",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/29.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/toilet-rest-area?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "sports-facility-venue",
+      "title": "Spor Tesisi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/30.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/sports-facility-venue?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "facility",
+      "title": "Tesis",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/04.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/facility?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "religious-place",
+      "title": "Dini Bölge",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/39.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/religious-place?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "facilities"
+      ]
+    },
+    {
+      "id": "leisure-outdoor",
+      "title": "Dinlence ve Açık Alan Aktiviteleri",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/07.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/leisure-outdoor?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "recreation",
+      "title": "Eğlence",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/07.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/recreation?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "leisure-outdoor"
+      ]
+    },
+    {
+      "id": "amusement-holiday-park",
+      "title": "Tema Parkı",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/34.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/amusement-holiday-park?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "leisure-outdoor"
+      ]
+    },
+    {
+      "id": "zoo",
+      "title": "Hayvanat Bahçesi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/34.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/zoo?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "amusement-holiday-park"
+      ]
+    },
+    {
+      "id": "administrative-areas-buildings",
+      "title": "Yönetim Bölgeleri/Binaları",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/06.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/administrative-areas-buildings?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "administrative-region",
+      "title": "İdari bölge",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/06.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/administrative-region?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "administrative-areas-buildings"
+      ]
+    },
+    {
+      "id": "city-town-village",
+      "title": "Şehir, Kasaba veya Köy",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/35.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/city-town-village?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "administrative-areas-buildings"
+      ]
+    },
+    {
+      "id": "outdoor-area-complex",
+      "title": "Dış mekan / Dış mekan tesisi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/06.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/outdoor-area-complex?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "administrative-areas-buildings"
+      ]
+    },
+    {
+      "id": "building",
+      "title": "Bina",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/06.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/building?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "administrative-areas-buildings"
+      ]
+    },
+    {
+      "id": "street-square",
+      "title": "Sokak veya Meydan",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/06.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/street-square?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "administrative-areas-buildings"
+      ]
+    },
+    {
+      "id": "intersection",
+      "title": "Kavşak",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/06.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/intersection?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "administrative-areas-buildings"
+      ]
+    },
+    {
+      "id": "postal-area",
+      "title": "Posta Bölgesi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/06.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/postal-area?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "administrative-areas-buildings"
+      ]
+    },
+    {
+      "id": "natural-geographical",
+      "title": "Doğal veya Coğrafi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/08.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/natural-geographical?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": []
+    },
+    {
+      "id": "body-of-water",
+      "title": "Su Kaynağı",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/36.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/body-of-water?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "natural-geographical"
+      ]
+    },
+    {
+      "id": "mountain-hill",
+      "title": "Dağ veya tepe",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/08.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/mountain-hill?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "natural-geographical"
+      ]
+    },
+    {
+      "id": "undersea-feature",
+      "title": "Su Altı Aktivitesi",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/08.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/undersea-feature?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "natural-geographical"
+      ]
+    },
+    {
+      "id": "forest-heath-vegetation",
+      "title": "Orman, Kır veya Diğer Kırsal Alanlar",
+      "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/08.icon",
+      "type": "urn:nlp-types:category",
+      "href": "https://places.cit.api.here.com/places/v1/categories/places/forest-heath-vegetation?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+      "system": "places",
+      "within": [
+        "natural-geographical"
+      ]
+    }
+  ]
+}

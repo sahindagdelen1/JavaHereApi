@@ -1,19 +1,19 @@
 package searchapi.controller;
 
-import client.ApacheHttpRestClient;
+import client.CustomClientBuilder;
 import conf.AppParams;
 import org.apache.http.HttpResponse;
 
 public class SearchApi {
     private String appId;
     private String appCode;
-    private ApacheHttpRestClient apacheHttpRestClient;
+    private CustomClientBuilder customClientBuilder;
     String baseUrl;
 
     public SearchApi(String appId, String appCode, String baseUrl) {
         this.appId = appId;
         this.appCode = appCode;
-        apacheHttpRestClient = new ApacheHttpRestClient();
+        customClientBuilder = new CustomClientBuilder();
         this.baseUrl = baseUrl;
     }
 
@@ -23,15 +23,21 @@ public class SearchApi {
         String lonStr = lon.toString();
         String formattedUrl = String.format(url, getAppId(), getAppCode(), (latStr + "," + lonStr), q);
 
-        HttpResponse httpResponse = apacheHttpRestClient.getObjectHttpResponse(formattedUrl);
-        if (httpResponse != null && httpResponse.getStatusLine() != null) {
-            try {
-                return apacheHttpRestClient.convertHttpResponseToString(httpResponse);
-            } catch (Exception ex) {
-                ex.printStackTrace();
-                return "";
-            }
-        }
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
+
+    public String getCategories(Double lat, Double lon) {
+        String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_PLACES + "?app_id=%s&app_code=%s&at=%s";
+        String latStr = lat.toString();
+        String lonStr = lon.toString();
+        String formattedUrl = String.format(url, getAppId(), getAppCode(), (latStr + "," + lonStr));
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
         return "";
     }
 
@@ -52,11 +58,11 @@ public class SearchApi {
         this.appCode = appCode;
     }
 
-    public ApacheHttpRestClient getApacheHttpRestClient() {
-        return apacheHttpRestClient;
+    public CustomClientBuilder getCustomClientBuilder() {
+        return customClientBuilder;
     }
 
-    public void setApacheHttpRestClient(ApacheHttpRestClient apacheHttpRestClient) {
-        this.apacheHttpRestClient = apacheHttpRestClient;
+    public void setCustomClientBuilder(CustomClientBuilder customClientBuilder) {
+        this.customClientBuilder = customClientBuilder;
     }
 }
