@@ -4,6 +4,7 @@ import client.CustomClientBuilder;
 import conf.AppParams;
 import org.apache.http.HttpResponse;
 import searchapi.entity.CategoryType;
+import searchapi.entity.DiscoverParam;
 import searchapi.entity.LocationType;
 
 public class SearchApi {
@@ -74,34 +75,21 @@ public class SearchApi {
 
     }
 
-    public String discoverAround(Double lat, Double lon, String category) {
-        String latStr = lat.toString();
-        String lonStr = lon.toString();
-        String url = "";
-        String formattedUrl = "";
-        url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND + "?app_id=%s&app_code=%s&at=%s&cat=%s";
-        formattedUrl = String.format(url, getAppId(), getAppCode(), (latStr + "," + lonStr), category);
-        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
-        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
-        if (jsonResponseStr != null) return jsonResponseStr;
-        return "";
-    }
-
-    public String discoverExplore(Double lat, Double lon, String category, Integer radius, LocationType locationType) {
-        String latStr = lat.toString();
-        String lonStr = lon.toString();
+    public String discover(DiscoverParam discoverParam) {
+        String latStr = discoverParam.getLat().toString();
+        String lonStr = discoverParam.getLon().toString();
         String url = "";
         String atOrInParam = "";
         String formattedUrl = "";
 
-        if (locationType.equals(LocationType.AT)) {
+        if (discoverParam.getLocationType().equals(LocationType.AT)) {
             atOrInParam = latStr + "," + lonStr;
-            url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_EXPLORE + "?app_id=%s&app_code=%s&at=%s&cat=%s";
-        } else if (locationType.equals(LocationType.IN)) {
-            atOrInParam = latStr + "," + lonStr + ";r=" + radius;
-            url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_EXPLORE + "?app_id=%s&app_code=%s&in=%s&cat=%s";
+            url = baseUrl + AppParams.PLACES_PATH + discoverParam.getResourceType() + "?app_id=%s&app_code=%s&at=%s&cat=%s";
+        } else if (discoverParam.getLocationType().equals(LocationType.IN)) {
+            atOrInParam = latStr + "," + lonStr + ";r=" + discoverParam.getRadius();
+            url = baseUrl + AppParams.PLACES_PATH + discoverParam.getResourceType() + "?app_id=%s&app_code=%s&in=%s&cat=%s";
         }
-        formattedUrl = String.format(url, getAppId(), getAppCode(), atOrInParam, category);
+        formattedUrl = String.format(url, getAppId(), getAppCode(), atOrInParam, discoverParam.getCategory());
         HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
         String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
         if (jsonResponseStr != null) return jsonResponseStr;

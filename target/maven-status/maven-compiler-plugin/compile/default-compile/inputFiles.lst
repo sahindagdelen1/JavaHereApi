@@ -8,10 +8,11 @@ D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Context.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Search.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Address.java
 D:\Workspace-Real\JHereApi\src\main\java\conf\AppParams.java
-D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\BrowseLocationType.java
+D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\DiscoverParam.java
 D:\Workspace-Real\JHereApi\src\main\java\base\CustomResponse.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Category.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Results.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\Example.java
+D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\LocationType.java
 D:\Workspace-Real\JHereApi\src\main\java\conf\ReturnMessages.java
 D:\Workspace-Real\JHereApi\src\main\java\searchapi\entity\AlternativeName.java
