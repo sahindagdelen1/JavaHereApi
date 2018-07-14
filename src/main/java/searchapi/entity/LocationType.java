@@ -1,5 +1,5 @@
 package searchapi.entity;
 
-public enum BrowseLocationType {
+public enum LocationType {
     IN, AT;
 }

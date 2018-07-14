@@ -9,6 +9,7 @@ public class AppParams {
     public static final String RESOURCE_CATEGORIES_CUISINES = "/categories/cuisines";
     public static final String RESOURCE_BROWSE_PLACES = "/browse";
     public static final String RESOURCE_DISCOVER_AROUND = "/discover/around";
+    public static final String RESOURCE_DISCOVER_EXPLORE = "/discover/explore";
 
     public  static final String APPID_KEYNAME="app_id";
     public  static final String APPCODE_KEYNAME="app_code";
