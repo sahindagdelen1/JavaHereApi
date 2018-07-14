@@ -30,7 +30,7 @@ public class SearchApi {
         return "";
     }
 
-    public String getCategories(Double lat, Double lon) {
+    public String categories(Double lat, Double lon) {
         String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_PLACES + "?app_id=%s&app_code=%s&at=%s";
         String latStr = lat.toString();
         String lonStr = lon.toString();

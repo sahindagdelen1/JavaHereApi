@@ -121,7 +121,7 @@ public class SearchApiTest extends BaseApiTest {
         assertThat(httpResponse.getStatusLine().getStatusCode(), is(HttpStatus.SC_UNAUTHORIZED));
         assertThat(httpResponse.getStatusLine().getStatusCode(), not(HttpStatus.SC_OK));
 
-        String jsonResponse = searchApi.getCategories(40.9892, 28.7792);
+        String jsonResponse = searchApi.categories(40.9892, 28.7792);
         assertNotNull(jsonResponse);
         assertThat(jsonResponse, containsString("401"));
     }
@@ -137,7 +137,7 @@ public class SearchApiTest extends BaseApiTest {
                         .withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON)
                         .withBody(FixtureHelpers.fixture("fixtures/searchApiGetCategories.json"))));
 
-        String jsonResponse = searchApi.getCategories(40.9892, 28.7792);
+        String jsonResponse = searchApi.categories(40.9892, 28.7792);
         assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/searchApiGetCategories.json"));
         assertNotNull(jsonResponse);
         assertThat(jsonResponse, containsString("items"));
