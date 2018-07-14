@@ -10,6 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 import searchapi.controller.SearchApi;
 import searchapi.entity.BrowseLocationType;
+import searchapi.entity.CategoryType;
 
 import javax.ws.rs.core.MediaType;
 import java.io.IOException;
@@ -121,7 +122,7 @@ public class SearchApiTest extends BaseApiTest {
         assertThat(httpResponse.getStatusLine().getStatusCode(), is(HttpStatus.SC_UNAUTHORIZED));
         assertThat(httpResponse.getStatusLine().getStatusCode(), not(HttpStatus.SC_OK));
 
-        String jsonResponse = searchApi.categories(40.9892, 28.7792);
+        String jsonResponse = searchApi.categories(40.9892, 28.7792, CategoryType.PLACES);
         assertNotNull(jsonResponse);
         assertThat(jsonResponse, containsString("401"));
     }
@@ -137,7 +138,7 @@ public class SearchApiTest extends BaseApiTest {
                         .withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON)
                         .withBody(FixtureHelpers.fixture("fixtures/searchApiGetCategories.json"))));
 
-        String jsonResponse = searchApi.categories(40.9892, 28.7792);
+        String jsonResponse = searchApi.categories(40.9892, 28.7792, CategoryType.PLACES);
         assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/searchApiGetCategories.json"));
         assertNotNull(jsonResponse);
         assertThat(jsonResponse, containsString("items"));
@@ -184,6 +185,55 @@ public class SearchApiTest extends BaseApiTest {
         assertNotNull(jsonResponse);
         assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/browseSuccess.json"));
         verify(1, getRequestedFor(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_BROWSE_PLACES)));
+    }
+
+    @Test
+    public void discoverAroundWhenFails() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .willReturn(aResponse().withFault(Fault.EMPTY_RESPONSE)));
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND);
+        assertNull(httpResponse);
+
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .willReturn(aResponse().withFault(Fault.CONNECTION_RESET_BY_PEER)));
+        assertNull(httpResponse);
+
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .willReturn(aResponse().withFault(Fault.MALFORMED_RESPONSE_CHUNK)));
+        assertNull(httpResponse);
+
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("at", equalTo("52.521,13.3807"))
+                .withQueryParam("cat", equalTo("petrol-station,coffee-tea"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED)
+                        .withBody(FixtureHelpers.fixture("fixtures/unauthorized.json"))));
+        String jsonResponse = searchApi.discoverAround(52.521, 13.3807, "petrol-station,coffee-tea");
+        assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/unauthorized.json"));
+        assertNotNull(jsonResponse);
+    }
+
+
+    @Test
+    public void discoverAroundWhenSucceeds() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("at", equalTo("52.521,13.3807"))
+                .withQueryParam("cat", equalTo("petrol-station,coffee-tea"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/browseSuccess.json")))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
+
+        String jsonResponse = searchApi.discoverAround(52.521, 13.3807, "petrol-station,coffee-tea");
+        assertEquals(jsonResponse, FixtureHelpers.fixture("fixtures/browseSuccess.json"));
+        assertNotNull(jsonResponse);
     }
 
 }

@@ -4,6 +4,7 @@ import client.CustomClientBuilder;
 import conf.AppParams;
 import org.apache.http.HttpResponse;
 import searchapi.entity.BrowseLocationType;
+import searchapi.entity.CategoryType;
 
 public class SearchApi {
     private String appId;
@@ -30,8 +31,16 @@ public class SearchApi {
         return "";
     }
 
-    public String categories(Double lat, Double lon) {
-        String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_PLACES + "?app_id=%s&app_code=%s&at=%s";
+    public String categories(Double lat, Double lon, CategoryType categoryType) {
+        String url;
+        if (categoryType.equals(CategoryType.PLACES)) {
+            url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_PLACES + "?app_id=%s&app_code=%s&at=%s";
+        } else if (categoryType.equals(CategoryType.CUISINES)) {
+            url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_CATEGORIES_CUISINES + "?app_id=%s&app_code=%s&at=%s";
+        } else {
+            return "Unexpected category type";
+        }
+
         String latStr = lat.toString();
         String lonStr = lon.toString();
         String formattedUrl = String.format(url, getAppId(), getAppCode(), (latStr + "," + lonStr));
@@ -63,6 +72,17 @@ public class SearchApi {
         if (jsonResponseStr != null) return jsonResponseStr;
         return "";
 
+    }
+
+    public String discoverAround(Double lat, Double lon, String category) {
+        String latStr = lat.toString();
+        String lonStr = lon.toString();
+        String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_AROUND + "?app_id=%s&app_code=%s&at=%s&cat=%s";
+        String formattedUrl = String.format(url, getAppId(), getAppCode(), (latStr + "," + lonStr), category);
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
     }
 
 
