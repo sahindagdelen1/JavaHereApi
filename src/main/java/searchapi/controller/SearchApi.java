@@ -53,7 +53,7 @@ public class SearchApi {
     }
 
     public String browse(Double lat, Double lon, int radius, LocationType locationType, String category) {
-        String atOrInParam = "";
+        String atOrInParam;
         String latStr = lat.toString();
         String lonStr = lon.toString();
 
@@ -80,16 +80,23 @@ public class SearchApi {
         String lonStr = discoverParam.getLon().toString();
         String url = "";
         String atOrInParam = "";
-        String formattedUrl = "";
+        String formattedUrl;
 
         if (discoverParam.getLocationType().equals(LocationType.AT)) {
             atOrInParam = latStr + "," + lonStr;
-            url = baseUrl + AppParams.PLACES_PATH + discoverParam.getResourceType() + "?app_id=%s&app_code=%s&at=%s&cat=%s";
+            url = baseUrl + AppParams.PLACES_PATH + discoverParam.getResourceType() + "?app_id=%s&app_code=%s&at=%s";
         } else if (discoverParam.getLocationType().equals(LocationType.IN)) {
             atOrInParam = latStr + "," + lonStr + ";r=" + discoverParam.getRadius();
-            url = baseUrl + AppParams.PLACES_PATH + discoverParam.getResourceType() + "?app_id=%s&app_code=%s&in=%s&cat=%s";
+            url = baseUrl + AppParams.PLACES_PATH + discoverParam.getResourceType() + "?app_id=%s&app_code=%s&in=%s";
         }
-        formattedUrl = String.format(url, getAppId(), getAppCode(), atOrInParam, discoverParam.getCategory());
+
+        if (discoverParam.getResourceType().equals(AppParams.RESOURCE_DISCOVER_SEARCH)) {
+            url = url + "&q=%s";
+            formattedUrl = String.format(url, getAppId(), getAppCode(), atOrInParam, discoverParam.getQuery());
+        } else {
+            url = url + "&cat=%s";
+            formattedUrl = String.format(url, getAppId(), getAppCode(), atOrInParam, discoverParam.getCategory());
+        }
         HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
         String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
         if (jsonResponseStr != null) return jsonResponseStr;

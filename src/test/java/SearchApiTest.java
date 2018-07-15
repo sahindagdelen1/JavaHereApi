@@ -216,7 +216,7 @@ public class SearchApiTest extends BaseApiTest {
                 .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED)
                         .withBody(FixtureHelpers.fixture("fixtures/unauthorized.json"))));
         String apiResponse = searchApi.discover(new DiscoverParam(52.521, 13.3807, "petrol-station,coffee-tea", null,
-                LocationType.AT, AppParams.RESOURCE_DISCOVER_AROUND));
+                LocationType.AT, null, AppParams.RESOURCE_DISCOVER_AROUND));
         assertEquals(apiResponse, FixtureHelpers.fixture("fixtures/unauthorized.json"));
         assertNotNull(apiResponse);
     }
@@ -254,7 +254,7 @@ public class SearchApiTest extends BaseApiTest {
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
 
         String apiResponse = searchApi.discover(new DiscoverParam(52.521, 13.3807, "petrol-station,coffee-tea", 100,
-                LocationType.IN, AppParams.RESOURCE_DISCOVER_EXPLORE));
+                LocationType.IN, null, AppParams.RESOURCE_DISCOVER_EXPLORE));
         assertNotNull(apiResponse);
         assertEquals(apiResponse, FixtureHelpers.fixture("fixtures/unauthorized.json"));
         assertTrue(apiResponse.contains("401"));
@@ -271,7 +271,7 @@ public class SearchApiTest extends BaseApiTest {
                 .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/unauthorized.json")))
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
         String apiResponse = searchApi.discover(new DiscoverParam(52.521, 13.3807, "cinema", 1000,
-                LocationType.IN, AppParams.RESOURCE_DISCOVER_EXPLORE));
+                LocationType.IN, null, AppParams.RESOURCE_DISCOVER_EXPLORE));
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/unauthorized.json"), apiResponse);
     }
@@ -288,9 +288,41 @@ public class SearchApiTest extends BaseApiTest {
                 .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody(FixtureHelpers.fixture("fixtures/unauthorized.json")))
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
         String apiResponse = searchApi.discover(new DiscoverParam(52.50449, 13.39091, "cinema", null,
-                LocationType.AT, AppParams.RESOURCE_DISCOVER_HERE));
+                LocationType.AT, null, AppParams.RESOURCE_DISCOVER_HERE));
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/unauthorized.json"), apiResponse);
     }
 
+
+    @Test
+    public void discoverSearchFails() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_SEARCH))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("at", equalTo("52.50449,13.39091"))
+                .withQueryParam("q", equalTo("restaurant"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody(FixtureHelpers.fixture("fixtures/unauthorized.json")))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
+        String apiResponse = searchApi.discover(new DiscoverParam(52.50449, 13.39091, "cinema", null,
+                LocationType.AT, "restaurant", AppParams.RESOURCE_DISCOVER_SEARCH));
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/unauthorized.json"), apiResponse);
+    }
+
+    @Test
+    public void discoverSearchSuccess() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_DISCOVER_SEARCH))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("at", equalTo("52.50449,13.39091"))
+                .withQueryParam("q", equalTo("restaurant"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/discoverSearchSuccess.json")))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
+        String apiResponse = searchApi.discover(new DiscoverParam(52.50449, 13.39091, "cinema", null,
+                LocationType.AT, "restaurant", AppParams.RESOURCE_DISCOVER_SEARCH));
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/discoverSearchSuccess.json"), apiResponse);
+    }
 }

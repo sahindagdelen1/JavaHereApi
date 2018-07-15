@@ -4,17 +4,19 @@ public class DiscoverParam {
     private Double lat;
     private Double lon;
     private String category;
+    private String query;
     private Integer radius;
     private LocationType locationType;
     private String resourceType;
 
-    public DiscoverParam(Double lat, Double lon, String category, Integer radius, LocationType locationType, String resourceType) {
+    public DiscoverParam(Double lat, Double lon, String category, Integer radius, LocationType locationType, String query, String resourceType) {
         this.lat = lat;
         this.lon = lon;
         this.category = category;
         this.radius = radius;
         this.locationType = locationType;
         this.resourceType = resourceType;
+        this.query = query;
     }
 
     public Double getLat() {
@@ -63,5 +65,13 @@ public class DiscoverParam {
 
     public void setResourceType(String resourceType) {
         this.resourceType = resourceType;
+    }
+
+    public String getQuery() {
+        return query;
+    }
+
+    public void setQuery(String query) {
+        this.query = query;
     }
 }
