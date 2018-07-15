@@ -1,0 +1,1016 @@
+{
+  "results": {
+    "next": "https://places.cit.api.here.com/places/v1/discover/search;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmb2Zmc2V0PTIwJnNpemU9MjA?at=52.521%2C13.3807&q=restaurant&app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+    "items": [
+      {
+        "position": [
+          52.52151,
+          13.38602
+        ],
+        "distance": 364,
+        "title": "Brechts Steakhaus",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Schiffbauerdamm 6<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-e710e34e515f4aab8683afe29d2ae3ff;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0w?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "austrian",
+            "title": "Avusturya mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "steak",
+            "title": "Biftek",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-e710e34e515f4aab8683afe29d2ae3ff",
+        "openingHours": {
+          "text": "Pzt-Paz: 12:00 - 00:30",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T120000",
+              "duration": "PT12H30M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Brechts",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51714,
+          13.38609
+        ],
+        "distance": 563,
+        "title": "Einstein Unter Den Linden",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Unter den Linden 42<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-c803cf77cad04883b628de655a185173;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0x?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-c803cf77cad04883b628de655a185173",
+        "openingHours": {
+          "text": "Pzt-Paz: 07:00 - 22:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T070000",
+              "duration": "PT15H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Einstein",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51881,
+          13.38563
+        ],
+        "distance": 413,
+        "title": "Il Punto",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Neustädtische Kirchstraße 6<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-78fcd1a2430f4858b3a3db5f9bd98f78;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0y?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "italian",
+            "title": "İtalyan Mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-78fcd1a2430f4858b3a3db5f9bd98f78",
+        "openingHours": {
+          "text": "Pzt-Cum: 11:30 - 23:00<br/>Cmt: 17:00 - 23:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T113000",
+              "duration": "PT11H30M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            },
+            {
+              "start": "T170000",
+              "duration": "PT06H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SA"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.520865,
+          13.384737
+        ],
+        "distance": 274,
+        "title": "Backroom Cantina",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Schiffbauerdamm 11<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-2c192376ea8541419d3e26bc4aa4f7f9;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0z?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "fusion",
+            "title": "Farklı ülke mutfaklarının birleşimi",
+            "group": "cuisine"
+          },
+          {
+            "id": "international",
+            "title": "Uluslararası",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-2c192376ea8541419d3e26bc4aa4f7f9",
+        "openingHours": {
+          "text": "Çar-Cmt: 20:00 - 05:30",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T200000",
+              "duration": "PT09H30M",
+              "recurrence": "FREQ:DAILY;BYDAY:WE,TH,FR,SA"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Cantina",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51944,
+          13.38549
+        ],
+        "distance": 368,
+        "title": "Flamingo Fresh Food Bar",
+        "averageRating": 0,
+        "category": {
+          "id": "snacks-fast-food",
+          "title": "Atıştırma / Fast Food",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/snacks-fast-food?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Neustädtische Kirchstraße 8<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-402aec0f4d104c74b866dd8ec484c035;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz00?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "breakfast",
+            "title": "Kahvaltı",
+            "group": "cuisine"
+          },
+          {
+            "id": "international",
+            "title": "Uluslararası",
+            "group": "cuisine"
+          },
+          {
+            "id": "sandwich",
+            "title": "Sandviç",
+            "group": "cuisine"
+          },
+          {
+            "id": "soup",
+            "title": "Çorba",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-402aec0f4d104c74b866dd8ec484c035",
+        "openingHours": {
+          "text": "Pzt-Cum: 07:00 - 18:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T070000",
+              "duration": "PT11H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Flamingo",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51801,
+          13.3866
+        ],
+        "distance": 520,
+        "title": "Ishin Japanese Deli",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Mittelstraße 24<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-cd4084d167af4d0ea6f62e49fbbcbdcf;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz01?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "asian",
+            "title": "Asya",
+            "group": "cuisine"
+          },
+          {
+            "id": "japanese",
+            "title": "Japon Mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "sushi",
+            "title": "Japon Mutfağı - Sushi",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-cd4084d167af4d0ea6f62e49fbbcbdcf",
+        "openingHours": {
+          "text": "Pzt-Cum: 11:30 - 21:30<br/>Cmt: 12:00 - 21:30",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T113000",
+              "duration": "PT10H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            },
+            {
+              "start": "T120000",
+              "duration": "PT09H30M",
+              "recurrence": "FREQ:DAILY;BYDAY:SA"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.52129,
+          13.38563
+        ],
+        "distance": 335,
+        "title": "Berliner Republik",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Schiffbauerdamm 8<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-e9ced35c086d49b799fc7ad1ea7eed46;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz02?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-e9ced35c086d49b799fc7ad1ea7eed46",
+        "openingHours": {
+          "text": "Pzt-Paz: 10:00 - 06:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T100000",
+              "duration": "PT20H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.522991,
+          13.388084
+        ],
+        "distance": 546,
+        "title": "BOMBAY",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Friedrichstraße 106<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-880e828a64934b0f9e7a59a322d8794f;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz03?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "asian",
+            "title": "Asya",
+            "group": "cuisine"
+          },
+          {
+            "id": "indian",
+            "title": "Hint Mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-880e828a64934b0f9e7a59a322d8794f",
+        "openingHours": {
+          "text": "Pzt-Per, Paz: 11:00 - 00:00<br/>Cum, Cmt: 11:00 - 01:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T110000",
+              "duration": "PT13H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,SU"
+            },
+            {
+              "start": "T110000",
+              "duration": "PT14H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:FR,SA"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Bombay",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52166,
+          13.38626
+        ],
+        "distance": 383,
+        "title": "Ganymed",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Schiffbauerdamm 5<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-509381cdbbb04bc8b5e98d7f448b2b33;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz04?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "french",
+            "title": "Fransız mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "sea-food",
+            "title": "Deniz Ürünleri",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-509381cdbbb04bc8b5e98d7f448b2b33",
+        "openingHours": {
+          "text": "Pzt-Paz: 12:00 - 01:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T120000",
+              "duration": "PT13H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.52351,
+          13.38615
+        ],
+        "distance": 462,
+        "title": "Ga Ya Ya",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Reinhardtstraße 11<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276jx7ps-9a72b3fa69970970c1b3fc45f604bb9f;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz05?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "asian",
+            "title": "Asya",
+            "group": "cuisine"
+          },
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "thai",
+            "title": "Tayland Mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "vegan",
+            "title": "Vejetaryen",
+            "group": "cuisine"
+          },
+          {
+            "id": "vegetarian",
+            "title": "Vejetaryen",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276jx7ps-9a72b3fa69970970c1b3fc45f604bb9f",
+        "openingHours": {
+          "text": "Pzt-Cum: 12:00 - 17:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T120000",
+              "duration": "PT05H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Gayaya",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52172,
+          13.3796
+        ],
+        "distance": 109,
+        "title": "HABEL am Reichstag",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Luisenstraße 19<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-49735675aa0f4da3b497dde135f8dcce;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xMA?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-49735675aa0f4da3b497dde135f8dcce",
+        "openingHours": {
+          "text": "Pzt-Cmt: 07:00 - 00:00<br/>Paz: 07:00 - 11:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T070000",
+              "duration": "PT17H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA"
+            },
+            {
+              "start": "T070000",
+              "duration": "PT04H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Habel Weinkultur",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52151,
+          13.38602
+        ],
+        "distance": 364,
+        "title": "Bar A Vin",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Schiffbauerdamm<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-29f1aa0ee343422ab656502dc87c2802;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xMQ?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-29f1aa0ee343422ab656502dc87c2802",
+        "openingHours": {
+          "text": "Pzt-Paz: 12:00 - 01:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T120000",
+              "duration": "PT13H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.51719,
+          13.38715
+        ],
+        "distance": 608,
+        "title": "Njoy Berlin",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Unter den Linden 36<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276aabd1-1774eb53497606a152665e0efd437dbb;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xMg?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276aabd1-1774eb53497606a152665e0efd437dbb",
+        "openingHours": {
+          "text": "Pzt-Cum: 08:00 - 19:00<br/>Cmt, Paz: 10:00 - 19:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T080000",
+              "duration": "PT11H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            },
+            {
+              "start": "T100000",
+              "duration": "PT09H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Njoy",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52354,
+          13.38631
+        ],
+        "distance": 473,
+        "title": "Bistro Ribelle",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Reinhardtstraße<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-72e2d06ef60448108a2b10093a5ee704;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xMw?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-72e2d06ef60448108a2b10093a5ee704",
+        "openingHours": {
+          "text": "Pzt-Cmt: 11:00 - 22:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T110000",
+              "duration": "PT11H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.52422,
+          13.38165
+        ],
+        "distance": 364,
+        "title": "Restaurant im Deutschen Theater",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Schumannstraße 13<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-9f05c33567284516b7b3b23a43a8c0d9;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xNA?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-9f05c33567284516b7b3b23a43a8c0d9",
+        "openingHours": {
+          "text": "Pzt-Paz: 17:30 - 00:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T173000",
+              "duration": "PT06H30M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "DT Restaurant",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51837,
+          13.3873
+        ],
+        "distance": 534,
+        "title": "Windhorst",
+        "averageRating": 0,
+        "category": {
+          "id": "bar-pub",
+          "title": "Bar/Pub",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/bar-pub?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/22.icon",
+        "vicinity": "Dorotheenstraße 65<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-4a7a2593c049492f82becdcec5736cad;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xNQ?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-4a7a2593c049492f82becdcec5736cad",
+        "openingHours": {
+          "text": "Pzt-Per: 18:00 - 03:00<br/>Cum: 18:00 - 04:00<br/>Cmt: 21:00 - 04:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T180000",
+              "duration": "PT09H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH"
+            },
+            {
+              "start": "T180000",
+              "duration": "PT10H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:FR"
+            },
+            {
+              "start": "T210000",
+              "duration": "PT07H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SA"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Windhorst Bar",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51708,
+          13.37768
+        ],
+        "distance": 481,
+        "title": "Hopfingerbraeu im Palais",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Ebertstraße 24<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-105c221362464a8cb3977a6c616baee9;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xNg?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-105c221362464a8cb3977a6c616baee9",
+        "openingHours": {
+          "text": "Pzt-Paz: 11:00 - 00:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T110000",
+              "duration": "PT13H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Hopfingerbräu im Palais",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51967,
+          13.38745
+        ],
+        "distance": 480,
+        "title": "Vietnam Restaurant",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Georgenstraße 25<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-e50d49a66a0b4808b7a473110527b502;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xNw?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "asian",
+            "title": "Asya",
+            "group": "cuisine"
+          },
+          {
+            "id": "vietnamese",
+            "title": "Vietnam mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-e50d49a66a0b4808b7a473110527b502",
+        "alternativeNames": [
+          {
+            "name": "Chinco Vietnam",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.51861,
+          13.37553
+        ],
+        "distance": 439,
+        "title": "Kaefer Dachgarten-Restaurant",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Platz der Republik 1<br/>Tiergarten, 10557 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-e00c5f0dd16c4cd2b1f18c979fdae9dc;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xOA?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "international",
+            "title": "Uluslararası",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-e00c5f0dd16c4cd2b1f18c979fdae9dc",
+        "openingHours": {
+          "text": "Pzt-Paz: 18:30 - 00:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T183000",
+              "duration": "PT05H30M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.52207,
+          13.3844
+        ],
+        "distance": 277,
+        "title": "Restaurant Alvis",
+        "averageRating": 0,
+        "category": {
+          "id": "restaurant",
+          "title": "Lokanta",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/restaurant?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/03.icon",
+        "vicinity": "Albrechtstraße 8<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-3b316585d809450f8e42a2f14e476a4b;context=Zmxvdy1pZD0yMWM1Y2FjZS00OTViLTU2ZjUtYTliMy0yNDAwNzdmMDY5YjFfMTUzMTY0ODUzMzI0MF80NjQzXzgxMTMmcmFuaz0xOQ?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "international",
+            "title": "Uluslararası",
+            "group": "cuisine"
+          },
+          {
+            "id": "steak",
+            "title": "Biftek",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-3b316585d809450f8e42a2f14e476a4b",
+        "openingHours": {
+          "text": "Pzt-Paz: 06:30 - 23:45",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T063000",
+              "duration": "PT17H15M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "ALvis",
+            "language": "de"
+          }
+        ]
+      }
+    ]
+  },
+  "search": {
+    "context": {
+      "location": {
+        "position": [
+          52.521,
+          13.3807
+        ],
+        "address": {
+          "text": "Luisenstraße 35<br/>Mitte, 10117 Berlin<br/>Almanya",
+          "house": "35",
+          "street": "Luisenstraße",
+          "postalCode": "10117",
+          "district": "Mitte",
+          "city": "Berlin",
+          "county": "Berlin",
+          "stateCode": "Berlin",
+          "country": "Almanya",
+          "countryCode": "DEU"
+        }
+      },
+      "type": "urn:nlp-types:place",
+      "href": "https://places.cit.api.here.com/places/v1/places/loc-dmVyc2lvbj0xO3RpdGxlPUx1aXNlbnN0cmElQzMlOUZlKzM1O2xhdD01Mi41MjE7bG9uPTEzLjM4MDc7c3RyZWV0PUx1aXNlbnN0cmElQzMlOUZlO2hvdXNlPTM1O2NpdHk9QmVybGluO3Bvc3RhbENvZGU9MTAxMTc7Y291bnRyeT1ERVU7ZGlzdHJpY3Q9TWl0dGU7c3RhdGVDb2RlPUJlcmxpbjtjb3VudHk9QmVybGluO2NhdGVnb3J5SWQ9YnVpbGRpbmc7c291cmNlU3lzdGVtPWludGVybmFs;context=c2VhcmNoQ29udGV4dD0x?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A"
+    },
+    "supportsPanning": true,
+    "ranking": "category-recommendations"
+  }
+}

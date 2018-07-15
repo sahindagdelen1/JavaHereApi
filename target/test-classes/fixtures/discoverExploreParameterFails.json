@@ -1,0 +1,5 @@
+{
+  "status": 400,
+  "message": "Only one explicit location (\"in\" or \"at\" parameter) is allowed.",
+  "incidentId": "de1714ae-da83-4abf-9714-aeda83babf02"
+}

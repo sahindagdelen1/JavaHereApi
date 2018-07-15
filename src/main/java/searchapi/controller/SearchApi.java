@@ -104,6 +104,18 @@ public class SearchApi {
     }
 
 
+    public String healthCheck() {
+        String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH + "?app_id=%s&app_code=%s";
+        String formattedUrl = String.format(url, getAppId(), getAppCode());
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
+
+
+
     public String getAppId() {
         return appId;
     }

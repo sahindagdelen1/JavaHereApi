@@ -1,0 +1,772 @@
+{
+  "results": {
+    "items": [
+      {
+        "position": [
+          52.52256,
+          13.38024
+        ],
+        "distance": 176,
+        "title": "Coucou Berlin",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Reinhardtstraße 37<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276aabd1-4e6f14402ed105e9a31da012e7a710fa;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz0w?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "mediterranean",
+            "title": "Akdeniz mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "natural-healthy",
+            "title": "Doğal/Sağlıklı",
+            "group": "cuisine"
+          },
+          {
+            "id": "sandwich",
+            "title": "Sandviç",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276aabd1-4e6f14402ed105e9a31da012e7a710fa",
+        "alternativeNames": [
+          {
+            "name": "Coucou",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.521935,
+          13.37778
+        ],
+        "distance": 223,
+        "title": "Café in der Bundespressekonferenz",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Margarete-Steffin-Straße<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/2768lxx5-27465cfcada401b4f6c4ce5cdda0f8d1;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz0x?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "2768lxx5-27465cfcada401b4f6c4ce5cdda0f8d1"
+      },
+      {
+        "position": [
+          52.52273,
+          13.38287
+        ],
+        "distance": 242,
+        "title": "Backshop Cafe am Deutschen Theater",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Reinhardtstraße 27A<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-6653f252c78149f986c6a718e4a4169b;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz0y?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-6653f252c78149f986c6a718e4a4169b"
+      },
+      {
+        "position": [
+          52.52064,
+          13.38439
+        ],
+        "distance": 253,
+        "title": "Zimt & Zucker Kaffeehaus",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Schiffbauerdamm 12<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-a9c04139bbb84bf2b27b483d25d68123;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz0z?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "breakfast",
+            "title": "Kahvaltı",
+            "group": "cuisine"
+          },
+          {
+            "id": "creperie",
+            "title": "Krepçi",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-a9c04139bbb84bf2b27b483d25d68123",
+        "openingHours": {
+          "text": "Pzt-Paz: 09:30 - 21:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T093000",
+              "duration": "PT11H30M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Zimt & Zucker",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52294,
+          13.37867
+        ],
+        "distance": 256,
+        "title": "Lina Bistro & Café",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Charitéstraße 3<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-87bc1904b0f542fc97f1a0daeb6c9eaa;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz00?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-87bc1904b0f542fc97f1a0daeb6c9eaa"
+      },
+      {
+        "position": [
+          52.52232,
+          13.38397
+        ],
+        "distance": 266,
+        "title": "Muckrakers",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Marienstraße 18<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276aabd1-93d46484f5bf0042d489a5339f65596e;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz01?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "italian",
+            "title": "İtalyan Mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "pizza",
+            "title": "Pizza",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276aabd1-93d46484f5bf0042d489a5339f65596e"
+      },
+      {
+        "position": [
+          52.52232,
+          13.38397
+        ],
+        "distance": 266,
+        "title": "Bose Buben Bar",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Marienstraße 18<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-3735f94d592340248cd1315fd32d5bf5;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz02?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "european",
+            "title": "Avrupa",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-3735f94d592340248cd1315fd32d5bf5",
+        "openingHours": {
+          "text": "Pzt-Paz: 10:00 - 00:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T100000",
+              "duration": "PT14H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Böse Buben Bar",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52333,
+          13.37969
+        ],
+        "distance": 268,
+        "title": "Café Luise - by Bäckerei & Konditorei Thürmann",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Luisenstraße 46<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-c905b9538f6e43428f0ebeb5d95b78a1;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzMl83N18yNzAmcmFuaz03?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-c905b9538f6e43428f0ebeb5d95b78a1"
+      },
+      {
+        "position": [
+          52.51944,
+          13.38549
+        ],
+        "distance": 368,
+        "title": "Flamingo Fresh Food Bar",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Neustädtische Kirchstraße 8<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-402aec0f4d104c74b866dd8ec484c035;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzNV83N18yNzAmcmFuaz0w?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "breakfast",
+            "title": "Kahvaltı",
+            "group": "cuisine"
+          },
+          {
+            "id": "international",
+            "title": "Uluslararası",
+            "group": "cuisine"
+          },
+          {
+            "id": "sandwich",
+            "title": "Sandviç",
+            "group": "cuisine"
+          },
+          {
+            "id": "soup",
+            "title": "Çorba",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-402aec0f4d104c74b866dd8ec484c035",
+        "openingHours": {
+          "text": "Pzt-Cum: 07:00 - 18:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T070000",
+              "duration": "PT11H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Flamingo",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52311,
+          13.38368
+        ],
+        "distance": 309,
+        "title": "La Gino",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Reinhardtstraße 23<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-863b426fcafd47b1b686b3032f95aa3c;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzNV83N18yNzAmcmFuaz0z?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "italian",
+            "title": "İtalyan Mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-863b426fcafd47b1b686b3032f95aa3c",
+        "openingHours": {
+          "text": "Pzt-Cum: 07:00 - 18:00<br/>Cmt: 08:00 - 17:00<br/>Paz: 08:00 - 16:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T070000",
+              "duration": "PT11H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            },
+            {
+              "start": "T080000",
+              "duration": "PT09H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SA"
+            },
+            {
+              "start": "T080000",
+              "duration": "PT08H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SU"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.52127,
+          13.38493
+        ],
+        "distance": 288,
+        "title": "Refinery",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Albrechtstraße 11B<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276aabd1-395ef13b02c602961074e6b8a7915289;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzNV83N18yNzAmcmFuaz0xMA?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276aabd1-395ef13b02c602961074e6b8a7915289",
+        "openingHours": {
+          "text": "Pzt-Cum: 08:00 - 18:00<br/>Cmt: 09:00 - 18:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T080000",
+              "duration": "PT10H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            },
+            {
+              "start": "T090000",
+              "duration": "PT09H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SA"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.52327,
+          13.38468
+        ],
+        "distance": 369,
+        "title": "Marcann's",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Reinhardtstraße 19<br/>Mitte, Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276aabd1-d79990b2f13b092c66b388b9faa5928f;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzNV83N18yNzAmcmFuaz0xMQ?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "french",
+            "title": "Fransız mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276aabd1-d79990b2f13b092c66b388b9faa5928f"
+      },
+      {
+        "position": [
+          52.52425,
+          13.37953
+        ],
+        "distance": 370,
+        "title": "Ka'Fe Small",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Luisenstraße 51<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-a201fe1bd2904efa980a48f31eed01f1;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzNV83N18yNzAmcmFuaz0xMg?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-a201fe1bd2904efa980a48f31eed01f1"
+      },
+      {
+        "position": [
+          52.5186,
+          13.37685
+        ],
+        "distance": 373,
+        "title": "Reichstag Dome Restaurant and Cafe",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Friedrich-Ebert-Platz<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-9390ec1cf5814934b9797063fe3ce8ac;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzNV83N18yNzAmcmFuaz0xMw?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-9390ec1cf5814934b9797063fe3ce8ac"
+      },
+      {
+        "position": [
+          52.52331,
+          13.38491
+        ],
+        "distance": 384,
+        "title": "Mensa Fine Italian Food",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Reinhardtstraße 17<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-2388302acf364e34aa41b18a298d8170;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzNV83N18yNzAmcmFuaz0xNA?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-2388302acf364e34aa41b18a298d8170"
+      },
+      {
+        "position": [
+          52.51714,
+          13.38609
+        ],
+        "distance": 563,
+        "title": "Einstein Unter Den Linden",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Unter den Linden 42<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-c803cf77cad04883b628de655a185173;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzN183N18yNzAmcmFuaz0w?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-c803cf77cad04883b628de655a185173",
+        "openingHours": {
+          "text": "Pzt-Paz: 07:00 - 22:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T070000",
+              "duration": "PT15H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Einstein",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52513,
+          13.39213
+        ],
+        "distance": 899,
+        "title": "Aufsturz",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Oranienburger Straße 67<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-7d47fc8810374fe2becff8f20b959ec4;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzN183N18yNzAmcmFuaz0y?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "international",
+            "title": "Uluslararası",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-7d47fc8810374fe2becff8f20b959ec4",
+        "openingHours": {
+          "text": "Pzt-Paz: 12:00 - 02:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T120000",
+              "duration": "PT14H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        }
+      },
+      {
+        "position": [
+          52.51484,
+          13.39057
+        ],
+        "distance": 957,
+        "title": "Ritter Sport Bunte Schokowelt",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Französische Straße 24<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-7452a802d5fb4e0781036712446a2bbf;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzN183N18yNzAmcmFuaz0z?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-7452a802d5fb4e0781036712446a2bbf",
+        "openingHours": {
+          "text": "Pzt-Çar: 10:00 - 19:00<br/>Per-Cmt: 10:00 - 20:00<br/>Paz: 10:00 - 18:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T100000",
+              "duration": "PT09H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE"
+            },
+            {
+              "start": "T100000",
+              "duration": "PT10H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:TH,FR,SA"
+            },
+            {
+              "start": "T100000",
+              "duration": "PT08H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Ritter Sport Schokocafé",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52401,
+          13.40249
+        ],
+        "distance": 1512,
+        "title": "Restaurant Hackescher Hof",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Rosenthaler Straße 40<br/>Mitte, 10178 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-fb00197ffa5041b2b656ea3d23145dca;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzN183N18yNzAmcmFuaz00?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "tags": [
+          {
+            "id": "german",
+            "title": "Alman mutfağı",
+            "group": "cuisine"
+          },
+          {
+            "id": "international",
+            "title": "Uluslararası",
+            "group": "cuisine"
+          }
+        ],
+        "id": "276u33db-fb00197ffa5041b2b656ea3d23145dca",
+        "openingHours": {
+          "text": "Pzt-Cum: 08:00 - 00:00<br/>Cmt, Paz: 09:00 - 00:00",
+          "label": "Çalışma saatleri",
+          "isOpen": true,
+          "structured": [
+            {
+              "start": "T080000",
+              "duration": "PT16H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+            },
+            {
+              "start": "T090000",
+              "duration": "PT15H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "name": "Hackescher Hof",
+            "language": "de"
+          }
+        ]
+      },
+      {
+        "position": [
+          52.52671,
+          13.39317
+        ],
+        "distance": 1056,
+        "title": "Princess Cheesecake",
+        "averageRating": 0,
+        "category": {
+          "id": "coffee-tea",
+          "title": "Kahve/Çay",
+          "href": "https://places.cit.api.here.com/places/v1/categories/places/coffee-tea?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+          "type": "urn:nlp-types:category",
+          "system": "places"
+        },
+        "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/23.icon",
+        "vicinity": "Tucholskystraße 37<br/>Mitte, 10117 Berlin",
+        "having": [],
+        "type": "urn:nlp-types:place",
+        "href": "https://places.cit.api.here.com/places/v1/places/276u33db-f6fdba7ad0324f80bcbc4ba0a0506281;context=Zmxvdy1pZD04ODNmZjgwYi03NDhiLTVhZTUtYTk4ZC1kZmYyODdmYjRkNzNfMTUzMTU1NDg4MzYzN183N18yNzAmcmFuaz03?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A",
+        "id": "276u33db-f6fdba7ad0324f80bcbc4ba0a0506281",
+        "openingHours": {
+          "text": "Pzt-Paz: 10:00 - 20:00",
+          "label": "Çalışma saatleri",
+          "isOpen": false,
+          "structured": [
+            {
+              "start": "T100000",
+              "duration": "PT10H00M",
+              "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "search": {
+    "context": {
+      "location": {
+        "position": [
+          52.521,
+          13.3807
+        ],
+        "address": {
+          "text": "Luisenstraße 35<br/>Mitte, 10117 Berlin<br/>Almanya",
+          "house": "35",
+          "street": "Luisenstraße",
+          "postalCode": "10117",
+          "district": "Mitte",
+          "city": "Berlin",
+          "county": "Berlin",
+          "stateCode": "Berlin",
+          "country": "Almanya",
+          "countryCode": "DEU"
+        }
+      },
+      "type": "urn:nlp-types:place",
+      "href": "https://places.cit.api.here.com/places/v1/places/loc-dmVyc2lvbj0xO3RpdGxlPUx1aXNlbnN0cmElQzMlOUZlKzM1O2xhdD01Mi41MjE7bG9uPTEzLjM4MDc7c3RyZWV0PUx1aXNlbnN0cmElQzMlOUZlO2hvdXNlPTM1O2NpdHk9QmVybGluO3Bvc3RhbENvZGU9MTAxMTc7Y291bnRyeT1ERVU7ZGlzdHJpY3Q9TWl0dGU7c3RhdGVDb2RlPUJlcmxpbjtjb3VudHk9QmVybGluO2NhdGVnb3J5SWQ9YnVpbGRpbmc7c291cmNlU3lzdGVtPWludGVybmFs;context=c2VhcmNoQ29udGV4dD0x?app_id=yOecByTUi1010XgBqKne&app_code=Djh77liYdfjuFZHFNsIq0A"
+    }
+  }
+}

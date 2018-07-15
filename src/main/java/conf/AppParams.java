@@ -12,6 +12,7 @@ public class AppParams {
     public static final String RESOURCE_DISCOVER_EXPLORE = "/discover/explore";
     public static final String RESOURCE_DISCOVER_HERE = "/discover/here";
     public static final String RESOURCE_DISCOVER_SEARCH = "/discover/search";
+    public static final String RESOURCE_HEALTH = "/health";
 
     public  static final String APPID_KEYNAME="app_id";
     public  static final String APPCODE_KEYNAME="app_code";

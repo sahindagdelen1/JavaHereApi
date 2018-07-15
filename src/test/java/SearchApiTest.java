@@ -325,4 +325,31 @@ public class SearchApiTest extends BaseApiTest {
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/discoverSearchSuccess.json"), apiResponse);
     }
+
+    @Test
+    public void healthCheckFails(){
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/discoverSearchSuccess.json")))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
+
+        HttpResponse httpResponse=customClientBuilder.getObjectHttpResponse(AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH+"?app_id=appid&app_code=appcode");
+        assertNull(httpResponse);
+    }
+
+    @Test
+    public void healthCheckSuccess(){
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/searchHealthSuccess.json")))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
+
+        String apiResponse = searchApi.healthCheck();
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/searchHealthSuccess.json"), apiResponse);
+    }
 }
