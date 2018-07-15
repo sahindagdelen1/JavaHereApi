@@ -6,6 +6,7 @@ import org.apache.http.HttpResponse;
 import searchapi.entity.CategoryType;
 import searchapi.entity.DiscoverParam;
 import searchapi.entity.LocationType;
+import searchapi.entity.LookupSource;
 
 public class SearchApi {
     private String appId;
@@ -107,6 +108,16 @@ public class SearchApi {
     public String healthCheck() {
         String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH + "?app_id=%s&app_code=%s";
         String formattedUrl = String.format(url, getAppId(), getAppCode());
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
+
+    public String lookup(String id, LookupSource lookupSource) {
+        String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_LOOKUP + "?app_id=%s&app_code=%s&source=%s&id=%s";
+        String formattedUrl = String.format(url, getAppId(), getAppCode(), lookupSource.getValue(), id);
 
         HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
         String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);

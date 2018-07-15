@@ -12,6 +12,7 @@ import searchapi.controller.SearchApi;
 import searchapi.entity.CategoryType;
 import searchapi.entity.DiscoverParam;
 import searchapi.entity.LocationType;
+import searchapi.entity.LookupSource;
 
 import javax.ws.rs.core.MediaType;
 import java.io.IOException;
@@ -327,7 +328,7 @@ public class SearchApiTest extends BaseApiTest {
     }
 
     @Test
-    public void healthCheckFails(){
+    public void healthCheckFails() {
         stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH))
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
                 .withQueryParam("app_id", equalTo("appid"))
@@ -335,12 +336,12 @@ public class SearchApiTest extends BaseApiTest {
                 .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/discoverSearchSuccess.json")))
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
 
-        HttpResponse httpResponse=customClientBuilder.getObjectHttpResponse(AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH+"?app_id=appid&app_code=appcode");
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH + "?app_id=appid&app_code=appcode");
         assertNull(httpResponse);
     }
 
     @Test
-    public void healthCheckSuccess(){
+    public void healthCheckSuccess() {
         stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH))
                 .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
                 .withQueryParam("app_id", equalTo("appid"))
@@ -351,5 +352,35 @@ public class SearchApiTest extends BaseApiTest {
         String apiResponse = searchApi.healthCheck();
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/searchHealthSuccess.json"), apiResponse);
+    }
+
+    @Test
+    public void lookupFails() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_LOOKUP))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("source", equalTo(LookupSource.PVID.getValue()))
+                .withQueryParam("id", equalTo("1115664033"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_NOT_FOUND).withBody(FixtureHelpers.fixture("fixtures/lookupFails404.json")))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
+        String apiResponse = searchApi.lookup("1115664033", LookupSource.PVID);
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/lookupFails404.json"), apiResponse);
+    }
+
+    @Test
+    public void lookupSuccess() {
+        stubFor(get(urlPathEqualTo(AppParams.PLACES_PATH + AppParams.RESOURCE_LOOKUP))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .withQueryParam("source", equalTo(LookupSource.PVID.getValue()))
+                .withQueryParam("id", equalTo("1115664113"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/lookupFailsSuccess.json")))
+                .withHeader(HttpHeaders.CONTENT_TYPE, equalTo(MediaType.APPLICATION_JSON)));
+        String apiResponse = searchApi.lookup("1115664113", LookupSource.PVID);
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/lookupFailsSuccess.json"), apiResponse);
     }
 }
