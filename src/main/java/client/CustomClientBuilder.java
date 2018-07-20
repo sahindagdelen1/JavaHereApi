@@ -7,6 +7,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
+import javax.ws.rs.core.MediaType;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
@@ -38,7 +39,7 @@ public class CustomClientBuilder {
     public HttpResponse getObjectHttpResponse(String url) {
         try {
             HttpGet request = new HttpGet(url);
-            request.addHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+            request.addHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON);
             return httpClient.execute(request);
         }catch (Exception ex){
             return null;
@@ -67,9 +68,13 @@ public class CustomClientBuilder {
 
     public String convertInputStreamToString(InputStream inputStream) throws IOException {
         Scanner scanner = new Scanner(inputStream,"UTF-8");
-        String responseString = scanner.useDelimiter("\\Z").next();
-        scanner.close();
-        return responseString;
+        scanner = scanner.useDelimiter("\\Z");
+        if (scanner.hasNext()) {
+            String responseString = scanner.next();
+            scanner.close();
+            return responseString;
+        }
+        return "";
     }
 
     public String convertHttpResponseToString(HttpResponse httpResponse) throws IOException {

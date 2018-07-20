@@ -14,6 +14,9 @@ public class AppParams {
     public static final String RESOURCE_DISCOVER_SEARCH = "/discover/search";
     public static final String RESOURCE_HEALTH = "/health";
     public static final String RESOURCE_LOOKUP = "/places/lookup";
+    //-------geocoder api
+    public static final String GEOCODER_BASE_URL = "https://geocoder.cit.api.here.com";
+    public static final String GEOCODER_RESOURCE = "/6.2/geocode.json";
 
     public  static final String APPID_KEYNAME="app_id";
     public  static final String APPCODE_KEYNAME="app_code";
