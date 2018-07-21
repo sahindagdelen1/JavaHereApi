@@ -136,4 +136,33 @@ public class GeocoderApiTest extends BaseApiTest {
         assertEquals(FixtureHelpers.fixture("fixtures/geocoderBoundingBoxSuccess.json"), apiResponse);
     }
 
+    @Test
+    public void streetIntersectionFails() {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("city", equalTo("Chicago"))
+                .withQueryParam("street", equalTo("State @ Madison"))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody("")));
+        String apiResponse = geocoderApi.streetIntersection("Chicago", "State @ Madison", "8");
+        assertNotNull(apiResponse);
+        assertEquals("", apiResponse);
+    }
+
+    @Test
+    public void streetIntersectionSuccess() {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("city", equalTo("Chicago"))
+                .withQueryParam("street", equalTo("State @ Madison"))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/geocoderStreetIntersectionSuccess.json"))));
+        String apiResponse = geocoderApi.streetIntersection("Chicago", "State @ Madison", "8");
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/geocoderStreetIntersectionSuccess.json"), apiResponse);
+    }
 }

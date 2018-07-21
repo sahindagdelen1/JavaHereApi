@@ -5,10 +5,12 @@ import conf.AppParams;
 import org.apache.http.HttpResponse;
 import util.StringUtils;
 
+import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
 public class GeocoderApi extends BaseApi {
     private StringUtils stringUtils;
+    java.util.logging.Logger logger = java.util.logging.Logger.getLogger("GeocoderApi");
 
     public GeocoderApi(String appId, String appCode, String baseUrl) {
         super(appId, appCode, baseUrl);
@@ -70,6 +72,29 @@ public class GeocoderApi extends BaseApi {
         stringBuilder.append("&mapview=%s");
         stringBuilder.append("&gen=%s");
         String formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), URLEncoder.encode(searchText, "UTF-8"), mapview, gen);
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
+
+    public String streetIntersection(String city, String street, String gen) {
+        String url = baseUrl + AppParams.GEOCODER_RESOURCE;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(url);
+        stringBuilder.append("?app_id=%s");
+        stringBuilder.append("&app_code=%s");
+        stringBuilder.append("&city=%s");
+        stringBuilder.append("&street=%s");
+        stringBuilder.append("&gen=%s");
+        String formattedUrl = "";
+        try {
+            formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), city, URLEncoder.encode(street, "UTF-8"), gen);
+        } catch (UnsupportedEncodingException ex) {
+            logger.warning(ex.getMessage());
+            return "";
+        }
+
         HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
         String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
         if (jsonResponseStr != null) return jsonResponseStr;
