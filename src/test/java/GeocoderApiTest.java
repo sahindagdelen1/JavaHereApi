@@ -1,6 +1,8 @@
 import client.CustomClientBuilder;
 import conf.AppParams;
 import geocoderapi.controller.GeocoderApi;
+import geocoderapi.entity.LocationAttributes;
+import geocoderapi.entity.ResponseAttributes;
 import io.dropwizard.testing.FixtureHelpers;
 import org.apache.http.HttpHeaders;
 import org.apache.http.HttpStatus;
@@ -164,5 +166,37 @@ public class GeocoderApiTest extends BaseApiTest {
         String apiResponse = geocoderApi.streetIntersection("Chicago", "State @ Madison", "8");
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/geocoderStreetIntersectionSuccess.json"), apiResponse);
+    }
+
+    @Test
+    public void suppressingResponseFails() {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("searchtext", equalTo("200 S Mathilda Sunnyvale CA"))
+                .withQueryParam("responseattributes", equalTo(ResponseAttributes.none.toString()))
+                .withQueryParam("locationattributes", equalTo(LocationAttributes.none.toString()))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody("")));
+        String apiResponse = geocoderApi.suppressingResponse("200 S Mathilda Sunnyvale CA", "none", "none", "8");
+        assertNotNull(apiResponse);
+        assertEquals("", apiResponse);
+    }
+
+    @Test
+    public void suppressingResponseSuccess() {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("searchtext", equalTo("200 S Mathilda Sunnyvale CA"))
+                .withQueryParam("responseattributes", equalTo(ResponseAttributes.mc.toString() + ResponseAttributes.mt.toString()))
+                .withQueryParam("locationattributes", equalTo(LocationAttributes.ai.toString() + LocationAttributes.ad.toString()))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/geocoderStreetIntersectionSuccess.json"))));
+        String apiResponse = geocoderApi.suppressingResponse("200 S Mathilda Sunnyvale CA", ResponseAttributes.mc.toString() + ResponseAttributes.mt.toString(), LocationAttributes.ai.toString() + LocationAttributes.ad.toString(), "8");
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/geocoderSupressingResponseSuccess.json"), apiResponse);
     }
 }

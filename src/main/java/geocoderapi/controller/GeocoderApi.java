@@ -100,6 +100,30 @@ public class GeocoderApi extends BaseApi {
         if (jsonResponseStr != null) return jsonResponseStr;
         return "";
     }
+
+    public String suppressingResponse(String searchText, String responseAtt, String locationAtt, String gen) {
+        String url = baseUrl + AppParams.GEOCODER_RESOURCE;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(url);
+        stringBuilder.append("?app_id=%s");
+        stringBuilder.append("&app_code=%s");
+        stringBuilder.append("&searchtext=%s");
+        stringBuilder.append("&responseattributes=%s");
+        stringBuilder.append("&locationattributes=%s");
+        stringBuilder.append("&gen=%s");
+        String formattedUrl = "";
+        try {
+            formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), URLEncoder.encode(searchText, "UTF-8"), responseAtt, locationAtt, gen);
+        } catch (UnsupportedEncodingException ex) {
+            logger.warning(ex.getMessage());
+            return "";
+        }
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
 }
 
 
