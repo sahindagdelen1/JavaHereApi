@@ -76,4 +76,34 @@ public class GeocoderApiTest extends BaseApiTest {
         assertEquals(FixtureHelpers.fixture("fixtures/geocoderSuccess.json"), apiResponse);
     }
 
+    @Test
+    public void freeFormFails() throws Exception {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("searchtext", equalTo("200 S Mathilda Sunnyvale CA"))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody("")));
+
+        String apiResponse = geocoderApi.freeForm("200 S Mathilda Sunnyvale CA", "8");
+        assertNotNull(apiResponse);
+        assertEquals("", apiResponse);
+    }
+
+    @Test
+    public void freeFormSuccess() throws Exception {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("searchtext", equalTo("200 S Mathilda Sunnyvale CA"))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/geocoderFreeFormSuccess.json"))));
+
+        String apiResponse = geocoderApi.freeForm("200 S Mathilda Sunnyvale CA", "8");
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/geocoderFreeFormSuccess.json"), apiResponse);
+    }
+
 }

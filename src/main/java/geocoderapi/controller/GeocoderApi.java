@@ -5,6 +5,8 @@ import conf.AppParams;
 import org.apache.http.HttpResponse;
 import util.StringUtils;
 
+import java.net.URLEncoder;
+
 public class GeocoderApi extends BaseApi {
     private StringUtils stringUtils;
 
@@ -35,6 +37,22 @@ public class GeocoderApi extends BaseApi {
             stringBuilder.append("&gen=" + gen);
         }
         String formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode());
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
+
+
+    public String freeForm(String searchText, String gen) throws Exception {
+        String url = baseUrl + AppParams.GEOCODER_RESOURCE;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(url);
+        stringBuilder.append("?app_id=%s");
+        stringBuilder.append("&app_code=%s");
+        stringBuilder.append("&searchtext=%s");
+        stringBuilder.append("&gen=%s");
+        String formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), URLEncoder.encode(searchText, "UTF-8"), gen);
         HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
         String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
         if (jsonResponseStr != null) return jsonResponseStr;
