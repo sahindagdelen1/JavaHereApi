@@ -106,4 +106,34 @@ public class GeocoderApiTest extends BaseApiTest {
         assertEquals(FixtureHelpers.fixture("fixtures/geocoderFreeFormSuccess.json"), apiResponse);
     }
 
+    @Test
+    public void boundingBoxFails() throws Exception {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("searchtext", equalTo("1 main"))
+                .withQueryParam("mapview", equalTo("42.3902,-71.1293;42.3312,-71.0228"))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody("")));
+        String apiResponse = geocoderApi.boundingBox("1 main", "42.3902,-71.1293;42.3312,-71.0228", "8");
+        assertNotNull(apiResponse);
+        assertEquals("", apiResponse);
+    }
+
+    @Test
+    public void boundingBoxSuccess() throws Exception {
+        stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
+                .withQueryParam("searchtext", equalTo("1 main"))
+                .withQueryParam("mapview", equalTo("42.3902,-71.1293;42.3312,-71.0228"))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/geocoderBoundingBoxSuccess.json"))));
+        String apiResponse = geocoderApi.boundingBox("1 main", "42.3902,-71.1293;42.3312,-71.0228", "8");
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/geocoderBoundingBoxSuccess.json"), apiResponse);
+    }
+
 }

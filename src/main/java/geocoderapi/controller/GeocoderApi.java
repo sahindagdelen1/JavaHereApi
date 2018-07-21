@@ -58,6 +58,23 @@ public class GeocoderApi extends BaseApi {
         if (jsonResponseStr != null) return jsonResponseStr;
         return "";
     }
+
+
+    public String boundingBox(String searchText, String mapview, String gen) throws Exception {
+        String url = baseUrl + AppParams.GEOCODER_RESOURCE;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(url);
+        stringBuilder.append("?app_id=%s");
+        stringBuilder.append("&app_code=%s");
+        stringBuilder.append("&searchtext=%s");
+        stringBuilder.append("&mapview=%s");
+        stringBuilder.append("&gen=%s");
+        String formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), URLEncoder.encode(searchText, "UTF-8"), mapview, gen);
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
 }
 
 
