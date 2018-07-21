@@ -31,7 +31,7 @@ public class GeocoderApiTest extends BaseApiTest {
 
 
     @Test
-    public void freeFormInputWhenFails() {
+    public void partialAddressInfoWhenFails() {
         stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
                 .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
                 .withQueryParam("housenumber", equalTo("425"))
@@ -43,7 +43,7 @@ public class GeocoderApiTest extends BaseApiTest {
                 .withQueryParam("app_code", equalTo("appcode"))
                 .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody(""))
         );
-        String apiResponse = geocoderApi.freeFormInput("425", "randolph", "chicago", "usa", "8");
+        String apiResponse = geocoderApi.partialAddresInfo("425", "randolph", "chicago", "usa", "8");
         assertNotNull(apiResponse);
         assertEquals("", apiResponse);
 
@@ -52,13 +52,13 @@ public class GeocoderApiTest extends BaseApiTest {
                 .withQueryParam("app_id", equalTo("appid"))
                 .withQueryParam("app_code", equalTo("appcode"))
                 .willReturn(aResponse().withStatus(HttpStatus.SC_BAD_REQUEST).withBody(FixtureHelpers.fixture("fixtures/geocoderBadRequest.json"))));
-        apiResponse = geocoderApi.freeFormInput(null, null, null, null, null);
+        apiResponse = geocoderApi.partialAddresInfo(null, null, null, null, null);
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/geocoderBadRequest.json"), apiResponse);
     }
 
     @Test
-    public void freeFormInputSuccess() {
+    public void partialAddressInfoSuccess() {
         stubFor(get(urlPathEqualTo(AppParams.GEOCODER_RESOURCE))
                 .withHeader(HttpHeaders.CONTENT_TYPE, containing("json"))
                 .withQueryParam("housenumber", equalTo("425"))
@@ -71,7 +71,7 @@ public class GeocoderApiTest extends BaseApiTest {
                 .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/geocoderSuccess.json")))
         );
 
-        String apiResponse = geocoderApi.freeFormInput("425", "randolph", "chicago", "usa", "8");
+        String apiResponse = geocoderApi.partialAddresInfo("425", "randolph", "chicago", "usa", "8");
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/geocoderSuccess.json"), apiResponse);
     }

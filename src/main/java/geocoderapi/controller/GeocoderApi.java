@@ -13,7 +13,7 @@ public class GeocoderApi extends BaseApi {
         stringUtils = new StringUtils();
     }
 
-    public String freeFormInput(String houseParameter, String street, String city, String country, String gen) {
+    public String partialAddresInfo(String houseParameter, String street, String city, String country, String gen) {
         String url = baseUrl + AppParams.GEOCODER_RESOURCE;
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(url);
