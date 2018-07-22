@@ -27,7 +27,7 @@ public class GeocoderApiTest extends BaseApiTest {
     }
 
     @After
-    public void nullifySearchApi() {
+    public void nullifyAfterTest() {
         geocoderApi = null;
     }
 

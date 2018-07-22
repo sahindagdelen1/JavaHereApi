@@ -36,7 +36,7 @@ public class SearchApiTest extends BaseApiTest {
     }
 
     @After
-    public void nullifySearchApi() {
+    public void nullifyAfterTest() {
         searchApi = null;
         mockRule.stop();
         mockRuleTwo.stop();

@@ -16,7 +16,9 @@ public class AppParams {
     public static final String RESOURCE_LOOKUP = "/places/lookup";
     //-------geocoder api
     public static final String GEOCODER_BASE_URL = "https://geocoder.cit.api.here.com";
+    public static final String GEOCODER_REVERSE_BASE_URL = "https://reverse.geocoder.cit.api.here.com";
     public static final String GEOCODER_RESOURCE = "/6.2/geocode.json";
+    public static final String GEOCODER_REVERSE_RESOURCE = "/6.2/reversegeocode.json";
 
     public  static final String APPID_KEYNAME="app_id";
     public  static final String APPCODE_KEYNAME="app_code";

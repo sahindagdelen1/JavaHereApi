@@ -1,0 +1,101 @@
+{
+  "Response": {
+    "MetaInfo": {
+      "Timestamp": "2018-07-22T10:16:49.364+0000",
+      "NextPageInformation": "2"
+    },
+    "View": [
+      {
+        "_type": "SearchResultsViewType",
+        "ViewId": 0,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 16.3,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_puy2gbuVuGd-an6zGdSyNA_xADM",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 41.88403,
+                "Longitude": -87.63881
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 41.88401,
+                  "Longitude": -87.63845
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 41.8851542,
+                  "Longitude": -87.6403199
+                },
+                "BottomRight": {
+                  "Latitude": 41.8829058,
+                  "Longitude": -87.6373001
+                }
+              },
+              "Address": {
+                "Label": "100 N Riverside Plz, Chicago, IL 60606, United States",
+                "Country": "USA",
+                "State": "IL",
+                "County": "Cook",
+                "City": "Chicago",
+                "District": "West Loop",
+                "Street": "N Riverside Plz",
+                "HouseNumber": "100",
+                "PostalCode": "60606",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Illinois",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cook",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1190062166",
+                "MapId": "NAAM18116",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-06-28",
+                "Spot": 0.59,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21002247",
+                "CountyId": "21002623",
+                "CityId": "21002647",
+                "BuildingId": "9000000000002726912",
+                "AddressId": "79186499"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

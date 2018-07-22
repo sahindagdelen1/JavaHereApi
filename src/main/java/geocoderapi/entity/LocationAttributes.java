@@ -8,7 +8,7 @@ public enum LocationAttributes {
         this.desc = desc;
     }
 
-    String getDesc() {
+    public String getDesc() {
         return desc;
     }
 }

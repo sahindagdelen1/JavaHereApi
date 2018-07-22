@@ -17,3 +17,4 @@ client\CustomClientBuilder$1.class
 conf\AppParams.class
 searchapi\entity\AlternativeName.class
 searchapi\entity\Tag.class
+geocoderapi\controller\ReverseGeocoderApi.class
