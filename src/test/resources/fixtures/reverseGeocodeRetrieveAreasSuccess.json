@@ -1,0 +1,82 @@
+{
+  "Response": {
+    "MetaInfo": {
+      "Timestamp": "2018-07-28T09:19:12.461+0000"
+    },
+    "View": [
+      {
+        "_type": "SearchResultsViewType",
+        "ViewId": 0,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": -365.6,
+            "Direction": 111.9,
+            "MatchLevel": "district",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_0ES-GaH3lZzJCuLQBrdw7C",
+              "LocationType": "area",
+              "DisplayPosition": {
+                "Latitude": 52.52122,
+                "Longitude": 13.42416
+              },
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 52.54063,
+                  "Longitude": 13.36566
+                },
+                "BottomRight": {
+                  "Latitude": 52.50407,
+                  "Longitude": 13.42964
+                }
+              },
+              "Address": {
+                "Label": "Mitte, Berlin, Deutschland",
+                "Country": "DEU",
+                "State": "Berlin",
+                "County": "Berlin",
+                "City": "Berlin",
+                "District": "Mitte",
+                "PostalCode": "10178",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "53500282",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "SideOfStreet": "neither",
+                "CountryId": "20147700",
+                "StateId": "20187401",
+                "CountyId": "20187402",
+                "CityId": "20187403",
+                "DistrictId": "20187417"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -33,6 +33,44 @@ public class ReverseGeocoderApi extends BaseApi {
         if (jsonResponseStr != null) return jsonResponseStr;
         return "";
     }
+
+    public String reverseGeocoderByMode(String prox, ReverseGeocodeMode mode, String gen) {
+        String url = baseUrl + AppParams.GEOCODER_REVERSE_RESOURCE;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(url);
+        stringBuilder.append("?app_id=%s");
+        stringBuilder.append("&app_code=%s");
+        stringBuilder.append("&prox=%s");
+        stringBuilder.append("&mode=%s");
+        stringBuilder.append("&gen=%s");
+        String formattedUrl = "";
+        formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), prox, mode.getValue(), gen);
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
+
+    public String reverseGeocoderShapeOfPostalCode(String prox, ReverseGeocodeMode mode, String maxresults, String additionaldata, String gen) {
+        String url = baseUrl + AppParams.GEOCODER_REVERSE_RESOURCE;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(url);
+        stringBuilder.append("?app_id=%s");
+        stringBuilder.append("&app_code=%s");
+        stringBuilder.append("&prox=%s");
+        stringBuilder.append("&mode=%s");
+        stringBuilder.append("&maxresults=%s");
+        stringBuilder.append("&additionaldata=%s");
+        stringBuilder.append("&gen=%s");
+        String formattedUrl = "";
+        formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), prox, mode.getValue(), maxresults, additionaldata, gen);
+
+        HttpResponse httpResponse = customClientBuilder.getObjectHttpResponse(formattedUrl);
+        String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
+        if (jsonResponseStr != null) return jsonResponseStr;
+        return "";
+    }
 }
 
 
