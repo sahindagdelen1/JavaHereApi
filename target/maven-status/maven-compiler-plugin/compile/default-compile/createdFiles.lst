@@ -4,6 +4,7 @@ client\CustomClientBuilder.class
 searchapi\entity\Search.class
 searchapi\controller\SearchApi.class
 base\CustomResponse.class
+geocoderapi\controller\MultiReverseGeocoderApi.class
 conf\ReturnMessages.class
 searchapi\entity\Location.class
 searchapi\entity\Item.class

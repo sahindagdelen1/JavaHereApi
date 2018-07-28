@@ -1,3 +1,4 @@
 BaseApiTest.class
 ReverseGeocoderApiTest.class
+MultiReverseGeocoderApiTest.class
 SearchApiTest.class
