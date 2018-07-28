@@ -1,0 +1,3911 @@
+{
+  "Response": {
+    "MetaInfo": {
+      "Timestamp": "2018-07-28T16:39:59.489+0000"
+    },
+    "Item": [
+      {
+        "ItemId": 1,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 10,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_5v-U9-t5AZa5VsRdV06lLB_xETN",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 52.53081,
+                "Longitude": 13.38449
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 52.53093,
+                  "Longitude": 13.38439
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 52.5319342,
+                  "Longitude": 13.3826421
+                },
+                "BottomRight": {
+                  "Latitude": 52.5296858,
+                  "Longitude": 13.3863379
+                }
+              },
+              "Address": {
+                "Label": "Invalidenstraße 115, 10115 Berlin, Deutschland",
+                "Country": "DEU",
+                "State": "Berlin",
+                "County": "Berlin",
+                "City": "Berlin",
+                "District": "Mitte",
+                "Street": "Invalidenstraße",
+                "HouseNumber": "115",
+                "PostalCode": "10115",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1197823682",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0.82,
+                "SideOfStreet": "right",
+                "CountryId": "20147700",
+                "StateId": "20187401",
+                "CountyId": "20187402",
+                "CityId": "20187403",
+                "DistrictId": "20187417",
+                "AddressId": "198456201"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 13.4,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_5v-U9-t5AZa5VsRdV06lLB_xEjN",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 52.53086,
+                "Longitude": 13.38474
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 52.531,
+                  "Longitude": 13.38461
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 52.5319842,
+                  "Longitude": 13.3828921
+                },
+                "BottomRight": {
+                  "Latitude": 52.5297358,
+                  "Longitude": 13.3865879
+                }
+              },
+              "Address": {
+                "Label": "Invalidenstraße 116, 10115 Berlin, Deutschland",
+                "Country": "DEU",
+                "State": "Berlin",
+                "County": "Berlin",
+                "City": "Berlin",
+                "District": "Mitte",
+                "Street": "Invalidenstraße",
+                "HouseNumber": "116",
+                "PostalCode": "10115",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "931447247",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0.4,
+                "SideOfStreet": "right",
+                "CountryId": "20147700",
+                "StateId": "20187401",
+                "CountyId": "20187402",
+                "CityId": "20187403",
+                "DistrictId": "20187417",
+                "AddressId": "198456196"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 26.8,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_5v-U9-t5AZa5VsRdV06lLB_l_1084662917_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 52.53105,
+                "Longitude": 13.38481
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 52.53105,
+                  "Longitude": 13.38481
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 52.53108,
+                  "Longitude": 13.38481
+                },
+                "BottomRight": {
+                  "Latitude": 52.53105,
+                  "Longitude": 13.38491
+                }
+              },
+              "Address": {
+                "Label": "Invalidenstraße, 10115 Berlin, Deutschland",
+                "Country": "DEU",
+                "State": "Berlin",
+                "County": "Berlin",
+                "City": "Berlin",
+                "District": "Mitte",
+                "Street": "Invalidenstraße",
+                "PostalCode": "10115",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1084662917",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0,
+                "SideOfStreet": "right",
+                "CountryId": "20147700",
+                "StateId": "20187401",
+                "CountyId": "20187402",
+                "CityId": "20187403",
+                "DistrictId": "20187417"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 34.2,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_zSo8RwhHAPP0BtnYEzxaID_l_1084662919_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 52.53108,
+                "Longitude": 13.38491
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 52.53108,
+                  "Longitude": 13.38491
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 52.53108,
+                  "Longitude": 13.38491
+                },
+                "BottomRight": {
+                  "Latitude": 52.53063,
+                  "Longitude": 13.38527
+                }
+              },
+              "Address": {
+                "Label": "10115 Berlin, Deutschland",
+                "Country": "DEU",
+                "State": "Berlin",
+                "County": "Berlin",
+                "City": "Berlin",
+                "District": "Mitte",
+                "PostalCode": "10115",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1084662919",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "20147700",
+                "StateId": "20187401",
+                "CountyId": "20187402",
+                "CityId": "20187403",
+                "DistrictId": "20187417"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 44.5,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_5v-U9-t5AZa5VsRdV06lLB_xEDO",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 52.53045,
+                "Longitude": 13.38554
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 52.53112,
+                  "Longitude": 13.38505
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 52.5315742,
+                  "Longitude": 13.3836921
+                },
+                "BottomRight": {
+                  "Latitude": 52.5293258,
+                  "Longitude": 13.3873879
+                }
+              },
+              "Address": {
+                "Label": "Invalidenstraße 118, 10115 Berlin, Deutschland",
+                "Country": "DEU",
+                "State": "Berlin",
+                "County": "Berlin",
+                "City": "Berlin",
+                "District": "Mitte",
+                "Street": "Invalidenstraße",
+                "HouseNumber": "118",
+                "PostalCode": "10115",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1084662918",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0.34,
+                "SideOfStreet": "right",
+                "CountryId": "20147700",
+                "StateId": "20187401",
+                "CountyId": "20187402",
+                "CityId": "20187403",
+                "DistrictId": "20187417",
+                "AddressId": "169161269"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 47.5,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_5v-U9-t5AZa5VsRdV06lLB_xEzM",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 52.53065,
+                "Longitude": 13.38393
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 52.53078,
+                  "Longitude": 13.38383
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 52.5317742,
+                  "Longitude": 13.3820821
+                },
+                "BottomRight": {
+                  "Latitude": 52.5295258,
+                  "Longitude": 13.3857779
+                }
+              },
+              "Address": {
+                "Label": "Invalidenstraße 113, 10115 Berlin, Deutschland",
+                "Country": "DEU",
+                "State": "Berlin",
+                "County": "Berlin",
+                "City": "Berlin",
+                "District": "Mitte",
+                "Street": "Invalidenstraße",
+                "HouseNumber": "113",
+                "PostalCode": "10115",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Berlin",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1197897399",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0.68,
+                "SideOfStreet": "right",
+                "CountryId": "20147700",
+                "StateId": "20187401",
+                "CountyId": "20187402",
+                "CityId": "20187403",
+                "DistrictId": "20187417",
+                "AddressId": "198456199"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 2,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 10.9,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_Y2mfSCsXPiYEQl7FuvpdNC_4A",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 50.16193,
+                "Longitude": 8.53361
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 50.16189,
+                  "Longitude": 8.53346
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 50.1630542,
+                  "Longitude": 8.5318552
+                },
+                "BottomRight": {
+                  "Latitude": 50.1608058,
+                  "Longitude": 8.5353648
+                }
+              },
+              "Address": {
+                "Label": "Am Kronberger Hang 8, 65824 Schwalbach am Taunus, Deutschland",
+                "Country": "DEU",
+                "State": "Hessen",
+                "County": "Main-Taunus-Kreis",
+                "City": "Schwalbach am Taunus",
+                "District": "Schwalbach am Taunus",
+                "Street": "Am Kronberger Hang",
+                "HouseNumber": "8",
+                "PostalCode": "65824",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Hessen",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Main-Taunus-Kreis",
+                    "key": "CountyName"
+                  }
+                ],
+                "Building": "Hillsite"
+              },
+              "MapReference": {
+                "ReferenceId": "1149583406",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0.72,
+                "SideOfStreet": "right",
+                "CountryId": "20147700",
+                "StateId": "20160993",
+                "CountyId": "20161614",
+                "CityId": "20161665",
+                "DistrictId": "20161667",
+                "AddressId": "187347354"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 15.8,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_rKfi33k682jC8wB-LP7twB_l_1149584793_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 50.1616773,
+                "Longitude": 8.5332888
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 50.1616773,
+                  "Longitude": 8.5332888
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 50.16233,
+                  "Longitude": 8.53251
+                },
+                "BottomRight": {
+                  "Latitude": 50.16078,
+                  "Longitude": 8.53397
+                }
+              },
+              "Address": {
+                "Label": "65824 Schwalbach am Taunus, Deutschland",
+                "Country": "DEU",
+                "State": "Hessen",
+                "County": "Main-Taunus-Kreis",
+                "City": "Schwalbach am Taunus",
+                "District": "Schwalbach am Taunus",
+                "PostalCode": "65824",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Hessen",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Main-Taunus-Kreis",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1149584793",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0.75,
+                "SideOfStreet": "right",
+                "CountryId": "20147700",
+                "StateId": "20160993",
+                "CountyId": "20161614",
+                "CityId": "20161665",
+                "DistrictId": "20161667"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 25.7,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_Y2mfSCsXPiYEQl7FuvpdNC_l_1149583407_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 50.16203,
+                "Longitude": 8.53336
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 50.16203,
+                  "Longitude": 8.53336
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 50.16275,
+                  "Longitude": 8.53321
+                },
+                "BottomRight": {
+                  "Latitude": 50.16141,
+                  "Longitude": 8.53532
+                }
+              },
+              "Address": {
+                "Label": "Am Kronberger Hang, 65824 Schwalbach am Taunus, Deutschland",
+                "Country": "DEU",
+                "State": "Hessen",
+                "County": "Main-Taunus-Kreis",
+                "City": "Schwalbach am Taunus",
+                "District": "Schwalbach am Taunus",
+                "Street": "Am Kronberger Hang",
+                "PostalCode": "65824",
+                "AdditionalData": [
+                  {
+                    "value": "Deutschland",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Hessen",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Main-Taunus-Kreis",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1149583407",
+                "MapId": "UWAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-16",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "20147700",
+                "StateId": "20160993",
+                "CountyId": "20161614",
+                "CityId": "20161665",
+                "DistrictId": "20161667"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 3,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 6.5,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_d5d.gyaGQHJ49Al9XqkaCC_xUjN",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 40.72955,
+                "Longitude": -73.98676
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 40.72962,
+                  "Longitude": -73.98692
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 40.7306742,
+                  "Longitude": -73.9882434
+                },
+                "BottomRight": {
+                  "Latitude": 40.7284258,
+                  "Longitude": -73.9852766
+                }
+              },
+              "Address": {
+                "Label": "156 2nd Ave, New York, NY 10003, United States",
+                "Country": "USA",
+                "State": "NY",
+                "County": "New York",
+                "City": "New York",
+                "District": "East Village",
+                "Street": "2nd Ave",
+                "HouseNumber": "156",
+                "PostalCode": "10003",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198462545",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.55,
+                "SideOfStreet": "right",
+                "CountryId": "21000001",
+                "StateId": "21010819",
+                "CountyId": "21019299",
+                "CityId": "21019301",
+                "BuildingId": "9000000000000108206",
+                "AddressId": "75150079"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 7.5,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "interpolated",
+            "Location": {
+              "LocationId": "NT_ufDyqIp6erz7JE6cgp7v3D_yADM",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 40.72965,
+                "Longitude": -73.98686
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 40.72978,
+                  "Longitude": -73.98681
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 40.7307742,
+                  "Longitude": -73.9883434
+                },
+                "BottomRight": {
+                  "Latitude": 40.7285258,
+                  "Longitude": -73.9853766
+                }
+              },
+              "Address": {
+                "Label": "200 E 10th St, New York, NY 10003, United States",
+                "Country": "USA",
+                "State": "NY",
+                "County": "New York",
+                "City": "New York",
+                "District": "East Village",
+                "Street": "E 10th St",
+                "HouseNumber": "200",
+                "PostalCode": "10003",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1120639817",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21010819",
+                "CountyId": "21019299",
+                "CityId": "21019301",
+                "AddressId": "760075920"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 19.4,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_d5d.gyaGQHJ49Al9XqkaCC_xUjM",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 40.72943,
+                "Longitude": -73.98685
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 40.72943,
+                  "Longitude": -73.98706
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 40.7305542,
+                  "Longitude": -73.9883334
+                },
+                "BottomRight": {
+                  "Latitude": 40.7283058,
+                  "Longitude": -73.9853666
+                }
+              },
+              "Address": {
+                "Label": "152 2nd Ave, New York, NY 10003, United States",
+                "Country": "USA",
+                "State": "NY",
+                "County": "New York",
+                "City": "New York",
+                "District": "East Village",
+                "Street": "2nd Ave",
+                "HouseNumber": "152",
+                "PostalCode": "10003",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1198462544",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 1,
+                "SideOfStreet": "right",
+                "CountryId": "21000001",
+                "StateId": "21010819",
+                "CountyId": "21019299",
+                "CityId": "21019301",
+                "BuildingId": "9000000000000111117",
+                "AddressId": "75150080"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 22,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "interpolated",
+            "Location": {
+              "LocationId": "NT_ufDyqIp6erz7JE6cgp7v3D_l_21612890_L_xkDO",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 40.7297118,
+                "Longitude": -73.9870151
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 40.7298401,
+                  "Longitude": -73.9869601
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 40.7308359,
+                  "Longitude": -73.9884986
+                },
+                "BottomRight": {
+                  "Latitude": 40.7285876,
+                  "Longitude": -73.9855317
+                }
+              },
+              "Address": {
+                "Label": "198 E 10th St, New York, NY 10003, United States",
+                "Country": "USA",
+                "State": "NY",
+                "County": "New York",
+                "City": "New York",
+                "District": "East Village",
+                "Street": "E 10th St",
+                "HouseNumber": "198",
+                "PostalCode": "10003",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "21612890",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.29,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21010819",
+                "CountyId": "21019299",
+                "CityId": "21019301"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 30.4,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_d5d.gyaGQHJ49Al9XqkaCC_xYDM",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 40.72981,
+                "Longitude": -73.98658
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 40.72987,
+                  "Longitude": -73.98674
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 40.7309342,
+                  "Longitude": -73.9880635
+                },
+                "BottomRight": {
+                  "Latitude": 40.7286858,
+                  "Longitude": -73.9850965
+                }
+              },
+              "Address": {
+                "Label": "160 2nd Ave, New York, NY 10003, United States",
+                "Country": "USA",
+                "State": "NY",
+                "County": "New York",
+                "City": "New York",
+                "District": "East Village",
+                "Street": "2nd Ave",
+                "HouseNumber": "160",
+                "PostalCode": "10003",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "728008752",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.31,
+                "SideOfStreet": "right",
+                "CountryId": "21000001",
+                "StateId": "21010819",
+                "CountyId": "21019299",
+                "CityId": "21019301",
+                "BuildingId": "9000000000000111688",
+                "AddressId": "75148482"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 46.9,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_ufDyqIp6erz7JE6cgp7v3D_yAjN",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 40.72945,
+                "Longitude": -73.98628
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 40.72953,
+                  "Longitude": -73.98622
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 40.7305742,
+                  "Longitude": -73.9877634
+                },
+                "BottomRight": {
+                  "Latitude": 40.7283258,
+                  "Longitude": -73.9847966
+                }
+              },
+              "Address": {
+                "Label": "206 E 10th St, New York, NY 10003, United States",
+                "Country": "USA",
+                "State": "NY",
+                "County": "New York",
+                "City": "New York",
+                "District": "East Village",
+                "Street": "E 10th St",
+                "HouseNumber": "206",
+                "PostalCode": "10003",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New York",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1120639816",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.96,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21010819",
+                "CountyId": "21019299",
+                "CityId": "21019301",
+                "BuildingId": "9000000000000111153",
+                "AddressId": "75146543"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 4,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 11.1,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_asrQxx6bvZWBV0G5lXK8VD_xkDMxA",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 47.6097,
+                "Longitude": -122.3425
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 47.60978,
+                  "Longitude": -122.34239
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 47.6108242,
+                  "Longitude": -122.3441674
+                },
+                "BottomRight": {
+                  "Latitude": 47.6085758,
+                  "Longitude": -122.3408326
+                }
+              },
+              "Address": {
+                "Label": "1901 Pike Pl, Seattle, WA 98101, United States",
+                "Country": "USA",
+                "State": "WA",
+                "County": "King",
+                "City": "Seattle",
+                "District": "Pike Market",
+                "Street": "Pike Pl",
+                "HouseNumber": "1901",
+                "PostalCode": "98101",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Washington",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "King",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "724630952",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.04,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21001865",
+                "CountyId": "21001972",
+                "CityId": "21002006",
+                "BuildingId": "9000000000000446286",
+                "AddressId": "580545582"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 12.1,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_asrQxx6bvZWBV0G5lXK8VD_l_724619141_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 47.60976,
+                "Longitude": -122.34235
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 47.60976,
+                  "Longitude": -122.34235
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 47.60976,
+                  "Longitude": -122.34235
+                },
+                "BottomRight": {
+                  "Latitude": 47.60965,
+                  "Longitude": -122.34216
+                }
+              },
+              "Address": {
+                "Label": "Pike Pl, Seattle, WA 98101, United States",
+                "Country": "USA",
+                "State": "WA",
+                "County": "King",
+                "City": "Seattle",
+                "District": "Pike Market",
+                "Street": "Pike Pl",
+                "PostalCode": "98101",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Washington",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "King",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "724619141",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21001865",
+                "CountyId": "21001972",
+                "CityId": "21002006"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 18,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "interpolated",
+            "Location": {
+              "LocationId": "NT_xs5WhXRsHJIeWUeWTyr9YA_l_979068120_L_yA",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 47.6097645,
+                "Longitude": -122.3422663
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 47.6096503,
+                  "Longitude": -122.3421597
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 47.6108886,
+                  "Longitude": -122.3439337
+                },
+                "BottomRight": {
+                  "Latitude": 47.6086403,
+                  "Longitude": -122.3405988
+                }
+              },
+              "Address": {
+                "Label": "2 Stewart St, Seattle, WA 98101, United States",
+                "Country": "USA",
+                "State": "WA",
+                "County": "King",
+                "City": "Seattle",
+                "District": "Pike Market",
+                "Street": "Stewart St",
+                "HouseNumber": "2",
+                "PostalCode": "98101",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Washington",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "King",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "979068120",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21001865",
+                "CountyId": "21001972",
+                "CityId": "21002006"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 23.9,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_PbKKBUibpJv3NuF8KTNN5B_xkDMwA",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 47.60985,
+                "Longitude": -122.34281
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 47.60977,
+                  "Longitude": -122.3429
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 47.6109742,
+                  "Longitude": -122.3444774
+                },
+                "BottomRight": {
+                  "Latitude": 47.6087258,
+                  "Longitude": -122.3411426
+                }
+              },
+              "Address": {
+                "Label": "1900 Western Ave, Seattle, WA 98101, United States",
+                "Country": "USA",
+                "State": "WA",
+                "County": "King",
+                "City": "Seattle",
+                "District": "Pike Market",
+                "Street": "Western Ave",
+                "HouseNumber": "1900",
+                "PostalCode": "98101",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Washington",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "King",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1209293520",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.77,
+                "SideOfStreet": "right",
+                "CountryId": "21000001",
+                "StateId": "21001865",
+                "CountyId": "21001972",
+                "CityId": "21002006",
+                "BuildingId": "9000000000000446286",
+                "AddressId": "580532942"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 30,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_xs5WhXRsHJIeWUeWTyr9YA_4ID",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 47.60986,
+                "Longitude": -122.34211
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 47.6098,
+                  "Longitude": -122.342
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 47.6109842,
+                  "Longitude": -122.3437774
+                },
+                "BottomRight": {
+                  "Latitude": 47.6087358,
+                  "Longitude": -122.3404426
+                }
+              },
+              "Address": {
+                "Label": "82 Stewart St, Seattle, WA 98101, United States",
+                "Country": "USA",
+                "State": "WA",
+                "County": "King",
+                "City": "Seattle",
+                "District": "Pike Market",
+                "Street": "Stewart St",
+                "HouseNumber": "82",
+                "PostalCode": "98101",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Washington",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "King",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "979068121",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.05,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21001865",
+                "CountyId": "21001972",
+                "CityId": "21002006",
+                "BuildingId": "9000000000000447017",
+                "AddressId": "580529621"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 46.1,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "interpolated",
+            "Location": {
+              "LocationId": "NT_asrQxx6bvZWBV0G5lXK8VD_l_21089502_L_xgTO5A",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 47.6094421,
+                "Longitude": -122.3420976
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 47.6095597,
+                  "Longitude": -122.3419996
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 47.6105662,
+                  "Longitude": -122.343765
+                },
+                "BottomRight": {
+                  "Latitude": 47.6083179,
+                  "Longitude": -122.3404302
+                }
+              },
+              "Address": {
+                "Label": "1899 Pike Pl, Seattle, WA 98101, United States",
+                "Country": "USA",
+                "State": "WA",
+                "County": "King",
+                "City": "Seattle",
+                "District": "Pike Market",
+                "Street": "Pike Pl",
+                "HouseNumber": "1899",
+                "PostalCode": "98101",
+                "AdditionalData": [
+                  {
+                    "value": "United States",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Washington",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "King",
+                    "key": "CountyName"
+                  },
+                  {
+                    "value": "N",
+                    "key": "PostalCodeType"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "21089502",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.57,
+                "SideOfStreet": "left",
+                "CountryId": "21000001",
+                "StateId": "21001865",
+                "CountyId": "21001972",
+                "CityId": "21002006"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 5,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 10.8,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_MQMYz6LNaev7zJFh0-N8GA_zUzN2A",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -22.98025,
+                "Longitude": -43.18994
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -22.98031,
+                  "Longitude": -43.18966
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -22.9791258,
+                  "Longitude": -43.1911611
+                },
+                "BottomRight": {
+                  "Latitude": -22.9813742,
+                  "Longitude": -43.1887189
+                }
+              },
+              "Address": {
+                "Label": "Avenida Atlântica, 3576, Copacabana, Rio de Janeiro - RJ, 22070-001, Brasil",
+                "Country": "BRA",
+                "State": "RJ",
+                "City": "Rio de Janeiro",
+                "District": "Copacabana",
+                "Street": "Avenida Atlântica",
+                "HouseNumber": "3576",
+                "PostalCode": "22070-001",
+                "AdditionalData": [
+                  {
+                    "value": "Brasil",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Rio de Janeiro",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "732028461",
+                "MapId": "SZAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-18",
+                "Spot": 0.59,
+                "SideOfStreet": "left",
+                "CountryId": "23028911",
+                "StateId": "23031642",
+                "CityId": "23039216",
+                "DistrictId": "23039424",
+                "AddressId": "738551400"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 26,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_MQMYz6LNaev7zJFh0-N8GA_l_732091608_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -22.9804537,
+                "Longitude": -43.189453
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -22.9804537,
+                  "Longitude": -43.189453
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -22.97918,
+                  "Longitude": -43.1899
+                },
+                "BottomRight": {
+                  "Latitude": -22.98185,
+                  "Longitude": -43.18933
+                }
+              },
+              "Address": {
+                "Label": "Avenida Atlântica, Copacabana, Rio de Janeiro - RJ, 22070-001, Brasil",
+                "Country": "BRA",
+                "State": "RJ",
+                "City": "Rio de Janeiro",
+                "District": "Copacabana",
+                "Street": "Avenida Atlântica",
+                "PostalCode": "22070-001",
+                "AdditionalData": [
+                  {
+                    "value": "Brasil",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Rio de Janeiro",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "732091608",
+                "MapId": "SZAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-18",
+                "Spot": 0.48,
+                "SideOfStreet": "left",
+                "CountryId": "23028911",
+                "StateId": "23031642",
+                "CityId": "23039216",
+                "DistrictId": "23039424"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 36.6,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_MR-Szpbg8w6R26BdtzJe.A_l_1085118725_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -22.9804887,
+                "Longitude": -43.1893561
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -22.9804887,
+                  "Longitude": -43.1893561
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -22.97999,
+                  "Longitude": -43.18943
+                },
+                "BottomRight": {
+                  "Latitude": -22.98083,
+                  "Longitude": -43.18921
+                }
+              },
+              "Address": {
+                "Label": "Copacabana, Rio de Janeiro - RJ, 22061-020, Brasil",
+                "Country": "BRA",
+                "State": "RJ",
+                "City": "Rio de Janeiro",
+                "District": "Copacabana",
+                "PostalCode": "22061-020",
+                "AdditionalData": [
+                  {
+                    "value": "Brasil",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Rio de Janeiro",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1085118725",
+                "MapId": "SZAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-18",
+                "Spot": 0.4,
+                "SideOfStreet": "left",
+                "CountryId": "23028911",
+                "StateId": "23031642",
+                "CityId": "23039216",
+                "DistrictId": "23039424"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 46.1,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_h3wkTqs5kT3Yt8RAftJttD_l_731681594_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -22.98081,
+                "Longitude": -43.18977
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -22.98081,
+                  "Longitude": -43.18977
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -22.98081,
+                  "Longitude": -43.19111
+                },
+                "BottomRight": {
+                  "Latitude": -22.98083,
+                  "Longitude": -43.18977
+                }
+              },
+              "Address": {
+                "Label": "Rua Sá Ferreira, Copacabana, Rio de Janeiro - RJ, 22071-100, Brasil",
+                "Country": "BRA",
+                "State": "RJ",
+                "City": "Rio de Janeiro",
+                "District": "Copacabana",
+                "Street": "Rua Sá Ferreira",
+                "PostalCode": "22071-100",
+                "AdditionalData": [
+                  {
+                    "value": "Brasil",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Rio de Janeiro",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "731681594",
+                "MapId": "SZAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-18",
+                "Spot": 1,
+                "SideOfStreet": "left",
+                "CountryId": "23028911",
+                "StateId": "23031642",
+                "CityId": "23039216",
+                "DistrictId": "23039424"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 48,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_1lkc39OH.XoIkqSJzUuhkC_l_731905096_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -22.979968,
+                "Longitude": -43.1896924
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -22.979968,
+                  "Longitude": -43.1896924
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -22.97996,
+                  "Longitude": -43.19015
+                },
+                "BottomRight": {
+                  "Latitude": -22.97997,
+                  "Longitude": -43.18958
+                }
+              },
+              "Address": {
+                "Label": "Rua Almirante Gonçalves, Copacabana, Rio de Janeiro - RJ, 22060-040, Brasil",
+                "Country": "BRA",
+                "State": "RJ",
+                "City": "Rio de Janeiro",
+                "District": "Copacabana",
+                "Street": "Rua Almirante Gonçalves",
+                "PostalCode": "22060-040",
+                "AdditionalData": [
+                  {
+                    "value": "Brasil",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Rio de Janeiro",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "731905096",
+                "MapId": "SZAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-18",
+                "Spot": 0.2,
+                "SideOfStreet": "left",
+                "CountryId": "23028911",
+                "StateId": "23031642",
+                "CityId": "23039216",
+                "DistrictId": "23039424"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 6,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 31.3,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Subdistrict": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_cj-MDefX9ewbm5rvCeS7cC_4gD",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -8.49456,
+                "Longitude": 115.25344
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -8.49456,
+                  "Longitude": 115.25341
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -8.4934358,
+                  "Longitude": 115.2523034
+                },
+                "BottomRight": {
+                  "Latitude": -8.4956842,
+                  "Longitude": 115.2545766
+                }
+              },
+              "Address": {
+                "Label": "88, Jalan Raya Sanggingan, Gianyar 80571, Indonesia",
+                "Country": "IDN",
+                "County": "Bali",
+                "City": "Gianyar",
+                "District": "Ubud",
+                "Subdistrict": "Kedewatan Kel.",
+                "Street": "Jalan Raya Sanggingan",
+                "HouseNumber": "88",
+                "PostalCode": "80571",
+                "AdditionalData": [
+                  {
+                    "value": "Indonesia",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Bali",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1110896400",
+                "MapId": "PZAM18120",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-11",
+                "Spot": 0.31,
+                "SideOfStreet": "right",
+                "CountryId": "23457314",
+                "CountyId": "27352953",
+                "CityId": "27353023",
+                "DistrictId": "27356191",
+                "AddressId": "571804812"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 7,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Subdistrict": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_WN17ImvlLivm4sCyMisOFA_l_1128490193_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 28.633834,
+                "Longitude": 77.2190873
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 28.633834,
+                  "Longitude": 77.2190873
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 28.63397,
+                  "Longitude": 77.2186
+                },
+                "BottomRight": {
+                  "Latitude": 28.63341,
+                  "Longitude": 77.21972
+                }
+              },
+              "Address": {
+                "Label": "Rajiv Chowk, Block B, Connaught Place, New Delhi 110001, India",
+                "Country": "IND",
+                "State": "DL",
+                "County": "New Delhi",
+                "City": "New Delhi",
+                "District": "Connaught Place",
+                "Subdistrict": "Block B",
+                "Street": "Rajiv Chowk",
+                "PostalCode": "110001",
+                "AdditionalData": [
+                  {
+                    "value": "India",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Delhi",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New Delhi",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1128490193",
+                "MapId": "RRAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-11",
+                "Spot": 0.16,
+                "SideOfStreet": "right",
+                "CountryId": "22806254",
+                "StateId": "22803332",
+                "CountyId": "22805541",
+                "CityId": "22797904",
+                "DistrictId": "23952393"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 5.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Subdistrict": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_5jE3H-NpfJqPzWpustS0XD_l_1058313854_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 28.63382,
+                "Longitude": 77.21905
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 28.63382,
+                  "Longitude": 77.21905
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 28.63412,
+                  "Longitude": 77.21867
+                },
+                "BottomRight": {
+                  "Latitude": 28.63378,
+                  "Longitude": 77.2195
+                }
+              },
+              "Address": {
+                "Label": "Block B, Connaught Place, New Delhi 110001, India",
+                "Country": "IND",
+                "State": "DL",
+                "County": "New Delhi",
+                "City": "New Delhi",
+                "District": "Connaught Place",
+                "Subdistrict": "Block B",
+                "PostalCode": "110001",
+                "AdditionalData": [
+                  {
+                    "value": "India",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Delhi",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New Delhi",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1058313854",
+                "MapId": "RRAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-11",
+                "Spot": 0,
+                "SideOfStreet": "right",
+                "CountryId": "22806254",
+                "StateId": "22803332",
+                "CountyId": "22805541",
+                "CityId": "22797904",
+                "DistrictId": "23952393"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 12.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_T5eJ4SsszpscjTL25QZMjB_l_750261567_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 28.63369,
+                "Longitude": 77.21912
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 28.63369,
+                  "Longitude": 77.21912
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 28.63369,
+                  "Longitude": 77.21891
+                },
+                "BottomRight": {
+                  "Latitude": 28.6329,
+                  "Longitude": 77.2201
+                }
+              },
+              "Address": {
+                "Label": "Connaught Place, New Delhi 110001, India",
+                "Country": "IND",
+                "State": "DL",
+                "County": "New Delhi",
+                "City": "New Delhi",
+                "District": "Connaught Place",
+                "PostalCode": "110001",
+                "AdditionalData": [
+                  {
+                    "value": "India",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Delhi",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "New Delhi",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "750261567",
+                "MapId": "RRAM18121",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-11",
+                "Spot": 1,
+                "SideOfStreet": "right",
+                "CountryId": "22806254",
+                "StateId": "22803332",
+                "CountyId": "22805541",
+                "CityId": "22797904",
+                "DistrictId": "23952393"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 8,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 6,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_w7MDEWDBOnABLU0TJP6mAB_0cD",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92048,
+                "Longitude": 18.42076
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92038,
+                  "Longitude": 18.42086
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.9193558,
+                  "Longitude": 18.4194053
+                },
+                "BottomRight": {
+                  "Latitude": -33.9216042,
+                  "Longitude": 18.4221147
+                }
+              },
+              "Address": {
+                "Label": "47 Strand St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Strand St",
+                "HouseNumber": "47",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "770594730",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.49,
+                "SideOfStreet": "left",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330",
+                "AddressId": "761309971"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 19.3,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_w7MDEWDBOnABLU0TJP6mAB_2YD",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92003,
+                "Longitude": 18.42107
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92023,
+                  "Longitude": 18.42084
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.9189058,
+                  "Longitude": 18.4197153
+                },
+                "BottomRight": {
+                  "Latitude": -33.9211542,
+                  "Longitude": 18.4224247
+                }
+              },
+              "Address": {
+                "Label": "66 Strand St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Strand St",
+                "HouseNumber": "66",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "771084307",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.65,
+                "SideOfStreet": "right",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330",
+                "AddressId": "647873425"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 26.2,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_qqAzD4LvY0kocxMSu4.Z3A_1kD",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92036,
+                "Longitude": 18.42052
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92026,
+                  "Longitude": 18.42039
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.9192358,
+                  "Longitude": 18.4191653
+                },
+                "BottomRight": {
+                  "Latitude": -33.9214842,
+                  "Longitude": 18.4218747
+                }
+              },
+              "Address": {
+                "Label": "59 Loop St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Loop St",
+                "HouseNumber": "59",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "771044310",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.69,
+                "SideOfStreet": "right",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330",
+                "AddressId": "647859140"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 32.7,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_DihzOBxeVXtlb3Va7PR9CA_ygD",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92068,
+                "Longitude": 18.42091
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92075,
+                  "Longitude": 18.42101
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.9195558,
+                  "Longitude": 18.4195553
+                },
+                "BottomRight": {
+                  "Latitude": -33.9218042,
+                  "Longitude": 18.4222647
+                }
+              },
+              "Address": {
+                "Label": "28 Long St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Long St",
+                "HouseNumber": "28",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "770725717",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.66,
+                "SideOfStreet": "left",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330",
+                "AddressId": "761310029"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 38.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_qqAzD4LvY0kocxMSu4.Z3A_l_771169494_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92013,
+                "Longitude": 18.42054
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92013,
+                  "Longitude": 18.42054
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.92006,
+                  "Longitude": 18.42054
+                },
+                "BottomRight": {
+                  "Latitude": -33.92013,
+                  "Longitude": 18.42061
+                }
+              },
+              "Address": {
+                "Label": "Loop St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Loop St",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "771169494",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0,
+                "SideOfStreet": "right",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 38.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_w7MDEWDBOnABLU0TJP6mAB_l_1052519825_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92013,
+                "Longitude": 18.42054
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92013,
+                  "Longitude": 18.42054
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.91957,
+                  "Longitude": 18.41997
+                },
+                "BottomRight": {
+                  "Latitude": -33.92112,
+                  "Longitude": 18.42188
+                }
+              },
+              "Address": {
+                "Label": "Strand St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Strand St",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1052519825",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 39,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_qqAzD4LvY0kocxMSu4.Z3A_zkTQ",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92005,
+                "Longitude": 18.42083
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.91996,
+                  "Longitude": 18.42071
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.9189258,
+                  "Longitude": 18.4194753
+                },
+                "BottomRight": {
+                  "Latitude": -33.9211742,
+                  "Longitude": 18.4221847
+                }
+              },
+              "Address": {
+                "Label": "39A Loop St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Loop St",
+                "HouseNumber": "39A",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "770957277",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.17,
+                "SideOfStreet": "right",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330",
+                "AddressId": "724262495"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 41.4,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_DihzOBxeVXtlb3Va7PR9CA_l_770617594_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92061,
+                "Longitude": 18.42117
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92061,
+                  "Longitude": 18.42117
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.92054,
+                  "Longitude": 18.42117
+                },
+                "BottomRight": {
+                  "Latitude": -33.92061,
+                  "Longitude": 18.42126
+                }
+              },
+              "Address": {
+                "Label": "Long St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Long St",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "770617594",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 45.4,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "County": 1,
+              "City": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_DihzOBxeVXtlb3Va7PR9CA_xgD",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": -33.92028,
+                "Longitude": 18.42127
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": -33.92039,
+                  "Longitude": 18.42142
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": -33.9191558,
+                  "Longitude": 18.4199153
+                },
+                "BottomRight": {
+                  "Latitude": -33.9214042,
+                  "Longitude": 18.4226247
+                }
+              },
+              "Address": {
+                "Label": "18 Long St, Cape Town, 8001, South Africa",
+                "Country": "ZAF",
+                "State": "Western Cape",
+                "County": "Cape Town",
+                "City": "Cape Town",
+                "Street": "Long St",
+                "HouseNumber": "18",
+                "PostalCode": "8001",
+                "AdditionalData": [
+                  {
+                    "value": "South Africa",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Western Cape",
+                    "key": "StateName"
+                  },
+                  {
+                    "value": "Cape Town",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "770703632",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.26,
+                "SideOfStreet": "left",
+                "CountryId": "23402002",
+                "StateId": "23401264",
+                "CountyId": "23402557",
+                "CityId": "23402330",
+                "AddressId": "647711163"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 9,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 6.9,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_N6LeLcdyO28CXHqyJ-7gtD_zMzM",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 21.00275,
+                "Longitude": -89.62236
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 21.00276,
+                  "Longitude": -89.62225
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 21.0038742,
+                  "Longitude": -89.6235642
+                },
+                "BottomRight": {
+                  "Latitude": 21.0016258,
+                  "Longitude": -89.6211558
+                }
+              },
+              "Address": {
+                "Label": "Calle 60 333, Chuburná de Hidalgo, 97205 Mérida, YUC, México",
+                "Country": "MEX",
+                "State": "YUC",
+                "City": "Mérida",
+                "District": "Chuburná de Hidalgo",
+                "Street": "Calle 60",
+                "HouseNumber": "333",
+                "PostalCode": "97205",
+                "AdditionalData": [
+                  {
+                    "value": "México",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Yucatán",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1123471815",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.58,
+                "SideOfStreet": "left",
+                "CountryId": "22000493",
+                "StateId": "22014879",
+                "CityId": "22014929",
+                "DistrictId": "22011047",
+                "AddressId": "395686445"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 9.1,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_YQZ9so-Znp.FvX4nDiWpcC_xQzN",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 21.00275,
+                "Longitude": -89.62256
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 21.00276,
+                  "Longitude": -89.62246
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 21.0038742,
+                  "Longitude": -89.6237642
+                },
+                "BottomRight": {
+                  "Latitude": 21.0016258,
+                  "Longitude": -89.6213558
+                }
+              },
+              "Address": {
+                "Label": "Avenida Tecnológico 147, Chuburná de Hidalgo, 97205 Mérida, YUC, México",
+                "Country": "MEX",
+                "State": "YUC",
+                "City": "Mérida",
+                "District": "Chuburná de Hidalgo",
+                "Street": "Avenida Tecnológico",
+                "HouseNumber": "147",
+                "PostalCode": "97205",
+                "AdditionalData": [
+                  {
+                    "value": "México",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Yucatán",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "1123471817",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.6,
+                "SideOfStreet": "left",
+                "CountryId": "22000493",
+                "StateId": "22014879",
+                "CityId": "22014929",
+                "DistrictId": "22011047",
+                "AddressId": "395518641"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 50,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_wYnKTWMV24PYyhFNTSOIRD_l_771911511_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 21.0031468,
+                "Longitude": -89.6224558
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 21.0031468,
+                  "Longitude": -89.6224558
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 21.00323,
+                  "Longitude": -89.62342
+                },
+                "BottomRight": {
+                  "Latitude": 21.00314,
+                  "Longitude": -89.62231
+                }
+              },
+              "Address": {
+                "Label": "Calle 21, Fracc Málaga, 97208 Mérida, YUC, México",
+                "Country": "MEX",
+                "State": "YUC",
+                "City": "Mérida",
+                "District": "Fracc Málaga",
+                "Street": "Calle 21",
+                "PostalCode": "97208",
+                "AdditionalData": [
+                  {
+                    "value": "México",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Yucatán",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "771911511",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0.68,
+                "SideOfStreet": "right",
+                "CountryId": "22000493",
+                "StateId": "22014879",
+                "CityId": "22014929",
+                "DistrictId": "22010269"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 50.2,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "State": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_bVPkvWe2APgNe1UeYtinJA_l_771911512_R",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 21.00314,
+                "Longitude": -89.62251
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 21.00314,
+                  "Longitude": -89.62251
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 21.00361,
+                  "Longitude": -89.62259
+                },
+                "BottomRight": {
+                  "Latitude": 21.00314,
+                  "Longitude": -89.62251
+                }
+              },
+              "Address": {
+                "Label": "Avenida Tecnológico, Fracc Málaga, 97208 Mérida, YUC, México",
+                "Country": "MEX",
+                "State": "YUC",
+                "City": "Mérida",
+                "District": "Fracc Málaga",
+                "Street": "Avenida Tecnológico",
+                "PostalCode": "97208",
+                "AdditionalData": [
+                  {
+                    "value": "México",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "Yucatán",
+                    "key": "StateName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "771911512",
+                "MapId": "NAAM18117",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-06",
+                "Spot": 0,
+                "SideOfStreet": "right",
+                "CountryId": "22000493",
+                "StateId": "22014879",
+                "CityId": "22014929",
+                "DistrictId": "22010269"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "ItemId": 10,
+        "Result": [
+          {
+            "Relevance": 1,
+            "Distance": 3.2,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_m85qmJim19s-eNJ4ueXadD_yQTM1A",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 24.66069,
+                "Longitude": 46.71203
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 24.66086,
+                  "Longitude": 46.71195
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 24.6618142,
+                  "Longitude": 46.710793
+                },
+                "BottomRight": {
+                  "Latitude": 24.6595658,
+                  "Longitude": 46.713267
+                }
+              },
+              "Address": {
+                "Label": "2415 شارع الكبير, المربع, 12628-6803 الرياض, السعودية",
+                "Country": "SAU",
+                "County": "الرياض",
+                "City": "الرياض",
+                "District": "المربع",
+                "Street": "شارع الكبير",
+                "HouseNumber": "2415",
+                "PostalCode": "12628-6803",
+                "AdditionalData": [
+                  {
+                    "value": "السعودية",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "الرياض",
+                    "key": "CountyName"
+                  }
+                ],
+                "Building": "6803"
+              },
+              "MapReference": {
+                "ReferenceId": "562930309",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.37,
+                "SideOfStreet": "right",
+                "CountryId": "21375962",
+                "CountyId": "21424222",
+                "CityId": "21424497",
+                "DistrictId": "21425424",
+                "AddressId": "414086125"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 22.9,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_KHgvMjnSMHaSEAmg4bSSpA_2gTMwA",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 24.66075,
+                "Longitude": 46.71222
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 24.6608,
+                  "Longitude": 46.71237
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 24.6618742,
+                  "Longitude": 46.710983
+                },
+                "BottomRight": {
+                  "Latitude": 24.6596258,
+                  "Longitude": 46.713457
+                }
+              },
+              "Address": {
+                "Label": "6810 شارع الامير عبدالرحمن بن عبدالعزيز, المربع, 12628-2434 الرياض, السعودية",
+                "Country": "SAU",
+                "County": "الرياض",
+                "City": "الرياض",
+                "District": "المربع",
+                "Street": "شارع الامير عبدالرحمن بن عبدالعزيز",
+                "HouseNumber": "6810",
+                "PostalCode": "12628-2434",
+                "AdditionalData": [
+                  {
+                    "value": "السعودية",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "الرياض",
+                    "key": "CountyName"
+                  }
+                ],
+                "Building": "2434"
+              },
+              "MapReference": {
+                "ReferenceId": "782684733",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.97,
+                "SideOfStreet": "left",
+                "CountryId": "21375962",
+                "CountyId": "21424222",
+                "CityId": "21424497",
+                "DistrictId": "21425424",
+                "AddressId": "413570646"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 23.1,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "pointAddress",
+            "Location": {
+              "LocationId": "NT_m85qmJim19s-eNJ4ueXadD_yMTOxA",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 24.6606,
+                "Longitude": 46.7118
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 24.66076,
+                  "Longitude": 46.71169
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 24.6617242,
+                  "Longitude": 46.710563
+                },
+                "BottomRight": {
+                  "Latitude": 24.6594758,
+                  "Longitude": 46.713037
+                }
+              },
+              "Address": {
+                "Label": "2391 شارع الكبير, المربع, 12628-6792 الرياض, السعودية",
+                "Country": "SAU",
+                "County": "الرياض",
+                "City": "الرياض",
+                "District": "المربع",
+                "Street": "شارع الكبير",
+                "HouseNumber": "2391",
+                "PostalCode": "12628-6792",
+                "AdditionalData": [
+                  {
+                    "value": "السعودية",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "الرياض",
+                    "key": "CountyName"
+                  }
+                ],
+                "Building": "6792"
+              },
+              "MapReference": {
+                "ReferenceId": "562930359",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.88,
+                "SideOfStreet": "right",
+                "CountryId": "21375962",
+                "CountyId": "21424222",
+                "CityId": "21424497",
+                "DistrictId": "21425424",
+                "AddressId": "413903559"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 26.2,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "interpolated",
+            "Location": {
+              "LocationId": "NT_KHgvMjnSMHaSEAmg4bSSpA_l_782684734_L_0ED",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 24.6608501,
+                "Longitude": 46.7121995
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 24.6609058,
+                  "Longitude": 46.7123347
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 24.6619743,
+                  "Longitude": 46.7109625
+                },
+                "BottomRight": {
+                  "Latitude": 24.6597259,
+                  "Longitude": 46.7134365
+                }
+              },
+              "Address": {
+                "Label": "41 شارع الامير عبدالرحمن بن عبدالعزيز, المربع, 12628 الرياض, السعودية",
+                "Country": "SAU",
+                "County": "الرياض",
+                "City": "الرياض",
+                "District": "المربع",
+                "Street": "شارع الامير عبدالرحمن بن عبدالعزيز",
+                "HouseNumber": "41",
+                "PostalCode": "12628",
+                "AdditionalData": [
+                  {
+                    "value": "السعودية",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "الرياض",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "782684734",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.5,
+                "SideOfStreet": "left",
+                "CountryId": "21375962",
+                "CountyId": "21424222",
+                "CityId": "21424497",
+                "DistrictId": "21425424"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 37,
+            "MatchLevel": "houseNumber",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "HouseNumber": 1,
+              "PostalCode": 1
+            },
+            "MatchType": "interpolated",
+            "Location": {
+              "LocationId": "NT_FD9OL.361X7ZkmmfBroMgA_l_562930310_R_yA",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 24.6609751,
+                "Longitude": 46.7117933
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 24.6609,
+                  "Longitude": 46.71167
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 24.6620992,
+                  "Longitude": 46.7105563
+                },
+                "BottomRight": {
+                  "Latitude": 24.6598509,
+                  "Longitude": 46.7130303
+                }
+              },
+              "Address": {
+                "Label": "2 مسار يوسف بن عيسي, المربع, 12628 الرياض, السعودية",
+                "Country": "SAU",
+                "County": "الرياض",
+                "City": "الرياض",
+                "District": "المربع",
+                "Street": "مسار يوسف بن عيسي",
+                "HouseNumber": "2",
+                "PostalCode": "12628",
+                "AdditionalData": [
+                  {
+                    "value": "السعودية",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "الرياض",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "562930310",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0.24,
+                "SideOfStreet": "right",
+                "CountryId": "21375962",
+                "CountyId": "21424222",
+                "CityId": "21424497",
+                "DistrictId": "21425424"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 44.3,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "Street": [
+                1
+              ],
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_KHgvMjnSMHaSEAmg4bSSpA_l_562930249_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 24.66099,
+                "Longitude": 46.7123
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 24.66099,
+                  "Longitude": 46.7123
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 24.66203,
+                  "Longitude": 46.7119
+                },
+                "BottomRight": {
+                  "Latitude": 24.66028,
+                  "Longitude": 46.71266
+                }
+              },
+              "Address": {
+                "Label": "شارع الامير عبدالرحمن بن عبدالعزيز, المربع, 12628 الرياض, السعودية",
+                "Country": "SAU",
+                "County": "الرياض",
+                "City": "الرياض",
+                "District": "المربع",
+                "Street": "شارع الامير عبدالرحمن بن عبدالعزيز",
+                "PostalCode": "12628",
+                "AdditionalData": [
+                  {
+                    "value": "السعودية",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "الرياض",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "562930249",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "21375962",
+                "CountyId": "21424222",
+                "CityId": "21424497",
+                "DistrictId": "21425424"
+              }
+            }
+          },
+          {
+            "Relevance": 1,
+            "Distance": 50.6,
+            "MatchLevel": "street",
+            "MatchQuality": {
+              "Country": 1,
+              "County": 1,
+              "City": 1,
+              "District": 1,
+              "PostalCode": 1
+            },
+            "Location": {
+              "LocationId": "NT_OTN8Fy62Hf4kytsNuZfgbB_l_782684711_L",
+              "LocationType": "address",
+              "DisplayPosition": {
+                "Latitude": 24.6609,
+                "Longitude": 46.71245
+              },
+              "NavigationPosition": [
+                {
+                  "Latitude": 24.6609,
+                  "Longitude": 46.71245
+                }
+              ],
+              "MapView": {
+                "TopLeft": {
+                  "Latitude": 24.66166,
+                  "Longitude": 46.71245
+                },
+                "BottomRight": {
+                  "Latitude": 24.6609,
+                  "Longitude": 46.71409
+                }
+              },
+              "Address": {
+                "Label": "المربع, 12628 الرياض, السعودية",
+                "Country": "SAU",
+                "County": "الرياض",
+                "City": "الرياض",
+                "District": "المربع",
+                "PostalCode": "12628",
+                "AdditionalData": [
+                  {
+                    "value": "السعودية",
+                    "key": "CountryName"
+                  },
+                  {
+                    "value": "الرياض",
+                    "key": "CountyName"
+                  }
+                ]
+              },
+              "MapReference": {
+                "ReferenceId": "782684711",
+                "MapId": "VMAM18118",
+                "MapVersion": "Q1/2018",
+                "MapReleaseDate": "2018-07-13",
+                "Spot": 0,
+                "SideOfStreet": "left",
+                "CountryId": "21375962",
+                "CountyId": "21424222",
+                "CityId": "21424497",
+                "DistrictId": "21425424"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
