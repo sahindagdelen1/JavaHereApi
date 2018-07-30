@@ -20,16 +20,17 @@ public class MultiReverseGeocoderApi extends BaseApi {
         stringUtils = new StringUtils();
     }
 
-    public String multiReverseGeocoderAdresses(String requestBody, ReverseGeocodeMode mode, String gen) {
+    public String multiReverseGeocoderByMode(String requestBody, ReverseGeocodeMode mode, String gen, int maxResults) {
         String url = baseUrl + AppParams.MULTI_GEOCODER_REVERSE_RESOURCE;
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(url);
         stringBuilder.append("?app_id=%s");
         stringBuilder.append("&app_code=%s");
         stringBuilder.append("&mode=%s");
+        stringBuilder.append("&maxresults=%s");
         stringBuilder.append("&gen=%s");
         String formattedUrl = "";
-        formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), mode.getValue(), gen);
+        formattedUrl = String.format(stringBuilder.toString(), getAppId(), getAppCode(), mode.getValue(), maxResults, gen);
 
         List<BasicHeader> basicHeaders = new ArrayList<BasicHeader>();
         BasicHeader basicHeader = new BasicHeader(HttpHeaders.CONTENT_TYPE, "*");

@@ -38,11 +38,12 @@ public class MultiReverseGeocoderApiTest extends BaseApiTest {
                 .withRequestBody(equalTo(FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody")))
                 .withQueryParam("mode", equalTo(ReverseGeocodeMode.retrieveAddresses.getValue()))
                 .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("maxresults", equalTo("1"))
                 .withQueryParam("app_id", equalTo("appid"))
                 .withQueryParam("app_code", equalTo("appcode"))
                 .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody("")));
         String requestBody = FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody");
-        String apiResponse = multiReverseGeocoderApi.multiReverseGeocoderAdresses(requestBody, ReverseGeocodeMode.retrieveAddresses, "8");
+        String apiResponse = multiReverseGeocoderApi.multiReverseGeocoderByMode(requestBody, ReverseGeocodeMode.retrieveAddresses, "8", 1);
         assertNotNull(apiResponse);
         assertEquals("", apiResponse);
     }
@@ -56,13 +57,52 @@ public class MultiReverseGeocoderApiTest extends BaseApiTest {
                 .withRequestBody(equalTo(FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody")))
                 .withQueryParam("mode", equalTo(ReverseGeocodeMode.retrieveAddresses.getValue()))
                 .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("maxresults", equalTo("1"))
                 .withQueryParam("app_id", equalTo("appid"))
                 .withQueryParam("app_code", equalTo("appcode"))
                 .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/multiReverseGeocodeSuccess.json"))));
         String requestBody = FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody");
-        String apiResponse = multiReverseGeocoderApi.multiReverseGeocoderAdresses(requestBody, ReverseGeocodeMode.retrieveAddresses, "8");
+        String apiResponse = multiReverseGeocoderApi.multiReverseGeocoderByMode(requestBody, ReverseGeocodeMode.retrieveAddresses, "8", 1);
         assertNotNull(apiResponse);
         assertEquals(FixtureHelpers.fixture("fixtures/multiReverseGeocodeSuccess.json"), apiResponse);
+    }
+
+
+    @Test
+    public void multiReverseGeocoderLandmarksFails() {
+        stubFor(post(urlPathEqualTo(AppParams.MULTI_GEOCODER_REVERSE_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("*"))
+                .withHeader(HttpHeaders.CACHE_CONTROL, containing("no-cache"))
+                .withRequestBody(equalTo(FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody")))
+                .withQueryParam("mode", equalTo(ReverseGeocodeMode.retrieveLandmarks.getValue()))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("maxresults", equalTo("1"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_UNAUTHORIZED).withBody("")));
+        String requestBody = FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody");
+        String apiResponse = multiReverseGeocoderApi.multiReverseGeocoderByMode(requestBody, ReverseGeocodeMode.retrieveLandmarks, "8", 1);
+        assertNotNull(apiResponse);
+        assertEquals("", apiResponse);
+    }
+
+
+    @Test
+    public void multiReverseGeocoderLandmarksSuccess() {
+        stubFor(post(urlPathEqualTo(AppParams.MULTI_GEOCODER_REVERSE_RESOURCE))
+                .withHeader(HttpHeaders.CONTENT_TYPE, containing("*"))
+                .withHeader(HttpHeaders.CACHE_CONTROL, containing("no-cache"))
+                .withRequestBody(equalTo(FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody")))
+                .withQueryParam("mode", equalTo(ReverseGeocodeMode.retrieveLandmarks.getValue()))
+                .withQueryParam("gen", equalTo("8"))
+                .withQueryParam("maxresults", equalTo("1"))
+                .withQueryParam("app_id", equalTo("appid"))
+                .withQueryParam("app_code", equalTo("appcode"))
+                .willReturn(aResponse().withStatus(HttpStatus.SC_OK).withBody(FixtureHelpers.fixture("fixtures/multiReverseGeocodeLandmarksSuccess.json"))));
+        String requestBody = FixtureHelpers.fixture("fixtures/multiReverseGeocoderAddReqBody");
+        String apiResponse = multiReverseGeocoderApi.multiReverseGeocoderByMode(requestBody, ReverseGeocodeMode.retrieveLandmarks, "8", 1);
+        assertNotNull(apiResponse);
+        assertEquals(FixtureHelpers.fixture("fixtures/multiReverseGeocodeLandmarksSuccess.json"), apiResponse);
     }
 
 }
