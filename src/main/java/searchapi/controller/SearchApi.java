@@ -21,6 +21,17 @@ public class SearchApi {
         this.baseUrl = baseUrl;
     }
 
+
+    /**
+     * Returns json response as String object which contains list of suggested
+     * places related to given input.
+     *
+     * @param lat Latitude
+     * @param lon Longtitude
+     * @param q   query input
+     * @return json representation of response as String, empty String if error occurs.
+     * @see <a href="https://developer.here.com/documentation/places/topics_api/resource-autosuggest.html">HERE Developer Api</a>
+     */
     public String autoSuggest(Double lat, Double lon, String q) {
         String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_AUTOSUGGEST + "?app_id=%s&app_code=%s&at=%s&q=%s";
         String latStr = lat.toString();
@@ -33,6 +44,17 @@ public class SearchApi {
         return "";
     }
 
+
+    /**
+     * Returns json response as String object which contains list of categories
+     * of places.
+     *
+     * @param  lat  Latitude
+     * @param  lon  Longtitude
+     * @param  categoryType  type of category
+     * @see   CategoryType
+     * @return json representation of response as String, empty String if error occurs.
+     */
     public String categories(Double lat, Double lon, CategoryType categoryType) {
         String url;
         if (categoryType.equals(CategoryType.PLACES)) {
@@ -53,6 +75,16 @@ public class SearchApi {
         return "";
     }
 
+    /**
+     * Returns json response as String object which contains places around a given point
+     * @param  lat  Latitude
+     * @param  lon  Longtitude
+     * @param  radius  radius
+     * @param  locationType  type of Location
+     * @see   LocationType
+     * @return json representation of response as String, empty String if error occurs.
+     *  @see <a href="https://developer.here.com/documentation/places/topics_api/resource-browse.html">HERE Developer Api</a>
+     */
     public String browse(Double lat, Double lon, int radius, LocationType locationType, String category) {
         String atOrInParam;
         String latStr = lat.toString();
@@ -76,6 +108,24 @@ public class SearchApi {
 
     }
 
+
+    /**
+     * Returns json response as String object which contains interesting places in the viewport of the map (discover/explore)
+     * Returns json response as String object which helps user identify his/her location (discover/here)
+     * Response changes for resourceType parameter.
+     * @param  discoverParam  parameters required are wrapped in DiscoverParam class.
+     * @param  {Double] discoverParam.lat   - Latitute of location
+     * @param  {Double] discoverParam.lon   - Longtitude of location
+     * @param  {String] discoverParam.category   - Category of location which can be retrieved from {@link #categories(Double, Double, CategoryType)}  method}
+     * @param  {String] discoverParam.query   - Query string which is retrieved from user as input.
+     * @param  {Integer] discoverParam.radius   - Query string which is retrieved from user as input.
+     * @param  {{@link LocationType}] discoverParam.locationType   -  Location type which user wants to discover.
+     * @param  {String] discoverParam.resourceType   -  There two resources linked with this ws, discover/here and discover/explore.
+     * @see   DiscoverParam
+     * @return json representation of response as String, empty String if error occurs.
+     *  @see <a href="https://developer.here.com/documentation/places/topics_api/resource-explore.html">HERE Developer Api Discover Explore</a>
+     *  @see <a href="https://developer.here.com/documentation/places/topics_api/resource-here.html">HERE Developer Api Discover Here</a>
+     */
     public String discover(DiscoverParam discoverParam) {
         String latStr = discoverParam.getLat().toString();
         String lonStr = discoverParam.getLon().toString();
@@ -104,7 +154,11 @@ public class SearchApi {
         return "";
     }
 
-
+    /**
+     * Returns json response of data which contains information if places api is up and running.
+     * @return json representation of response as String, empty String if error occurs.
+     *  @see <a href="https://developer.here.com/documentation/places/topics_api/resource-health.html">HERE Developer Places Api Health Check</a>
+     */
     public String healthCheck() {
         String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_HEALTH + "?app_id=%s&app_code=%s";
         String formattedUrl = String.format(url, getAppId(), getAppCode());
@@ -115,6 +169,15 @@ public class SearchApi {
         return "";
     }
 
+
+    /**
+     * Returns json response as String object which contains place by its foreign ID.
+     * @param  id
+     * @param  lookupSource
+     * @see   LookupSource
+     * @return json representation of response as String, empty String if error occurs.
+     *  @see <a href="https://developer.here.com/documentation/places/topics_api/resource-lookup.html">HERE Developer Api</a>
+     */
     public String lookup(String id, LookupSource lookupSource) {
         String url = baseUrl + AppParams.PLACES_PATH + AppParams.RESOURCE_LOOKUP + "?app_id=%s&app_code=%s&source=%s&id=%s";
         String formattedUrl = String.format(url, getAppId(), getAppCode(), lookupSource.getValue(), id);
