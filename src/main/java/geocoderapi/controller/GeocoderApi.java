@@ -17,6 +17,18 @@ public class GeocoderApi extends BaseApi {
         stringUtils = new StringUtils();
     }
 
+
+    /**
+     * Returns json response as String object which contains latitude,longtitude,details of an address parameters.
+     *
+     * @param houseParameter houseNumber of given address.
+     * @param street         street name of given address.
+     * @param city           city name  of given address.
+     * @param country        country of given address.
+     * @param gen            related to backward compatibility of Here api. Currently it is 8.
+     * @return json representation of response as String, empty String if error occurs.
+     * @see <a href="https://developer.here.com/api-explorer/rest/geocoder/latitude-longitude-by-partial-address">HERE Developer Api</a>
+     */
     public String partialAddresInfo(String houseParameter, String street, String city, String country, String gen) {
         String url = baseUrl + AppParams.GEOCODER_RESOURCE;
         StringBuilder stringBuilder = new StringBuilder();
@@ -46,6 +58,14 @@ public class GeocoderApi extends BaseApi {
     }
 
 
+    /**
+     * Returns json response as String object which contains latitude,longtitude,details of an address parameters based on free-form input text.
+     *
+     * @param searchText free-form input text.
+     * @param gen        related to backward compatibility of Here api. Currently it is 8.
+     * @return json representation of response as String, empty String if error occurs.
+     * @see <a href="https://developer.here.com/api-explorer/rest/geocoder/latitude-longitude-by-free-form-address">HERE Developer Api</a>
+     */
     public String freeForm(String searchText, String gen) throws Exception {
         String url = baseUrl + AppParams.GEOCODER_RESOURCE;
         StringBuilder stringBuilder = new StringBuilder();
@@ -61,7 +81,15 @@ public class GeocoderApi extends BaseApi {
         return "";
     }
 
-
+    /**
+     * Returns json response as String object which contains latitude,longtitude of an address parameters based on restricted area input.
+     *
+     * @param searchText free-form input text.
+     * @param mapview lat-lon pair seperated by comma.
+     * @param gen   related to backward compatibility of Here api. Currently it is 8.
+     * @return json representation of response as String, empty String if error occurs.
+     * @see <a href="https://developer.here.com/api-explorer/rest/geocoder/latitude-longitude-by-mapview-parameter">HERE Developer Api</a>
+     */
     public String boundingBox(String searchText, String mapview, String gen) throws Exception {
         String url = baseUrl + AppParams.GEOCODER_RESOURCE;
         StringBuilder stringBuilder = new StringBuilder();
@@ -78,6 +106,15 @@ public class GeocoderApi extends BaseApi {
         return "";
     }
 
+    /**
+     * Returns json response as String object which contains latitude,longtitude of an address parameters based on street intersection.
+     *
+     * @param city  city name.
+     * @param street street name
+     * @param gen   related to backward compatibility of Here api. Currently it is 8.
+     * @return json representation of response as String, empty String if error occurs.
+     * @see <a href="https://developer.here.com/api-explorer/rest/geocoder/latitude-longitude-intersection">HERE Developer Api</a>
+     */
     public String streetIntersection(String city, String street, String gen) {
         String url = baseUrl + AppParams.GEOCODER_RESOURCE;
         StringBuilder stringBuilder = new StringBuilder();
@@ -101,6 +138,17 @@ public class GeocoderApi extends BaseApi {
         return "";
     }
 
+
+    /**
+     * Returns json response as String object which contains only latitude,longtitude for a given address.
+     *
+     * @param searchText  free-form text.
+     * @param responseAtt response attributes (which elements are present in response) seperated by comma  @see {@link geocoderapi.entity.ResponseAttributes}
+     * @param locationAtt response attributes (which elements are present in response) seperated by comma  @see {@link geocoderapi.entity.LocationAttributes}
+     * @param gen   related to backward compatibility of Here api. Currently it is 8.
+     * @return json representation of response as String, empty String if error occurs.
+     * @see <a href="https://developer.here.com/api-explorer/rest/geocoder/latitude-longitude-no-attributes">HERE Developer Api</a>
+     */
     public String suppressingResponse(String searchText, String responseAtt, String locationAtt, String gen) {
         String url = baseUrl + AppParams.GEOCODER_RESOURCE;
         StringBuilder stringBuilder = new StringBuilder();
