@@ -1,4 +1,5 @@
-BaseApiTest.class
-ReverseGeocoderApiTest.class
-MultiReverseGeocoderApiTest.class
-SearchApiTest.class
+com\sdware\javahereapitest\ReverseGeocoderApiTest.class
+com\sdware\javahereapitest\GeocoderApiTest.class
+com\sdware\javahereapitest\BaseApiTest.class
+com\sdware\javahereapitest\MultiReverseGeocoderApiTest.class
+com\sdware\javahereapitest\SearchApiTest.class
