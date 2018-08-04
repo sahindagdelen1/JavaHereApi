@@ -15,6 +15,13 @@ public class MultiReverseGeocoderApi extends BaseApi {
     private StringUtils stringUtils;
     java.util.logging.Logger logger = java.util.logging.Logger.getLogger("MultiReverseGeocoderApi");
 
+    public MultiReverseGeocoderApi(String appId, String appCode) {
+        super(appId, appCode);
+        baseUrl = AppParams.MULTI_GEOCODER_REVERSE_RESOURCE;
+        stringUtils = new StringUtils();
+    }
+
+
     public MultiReverseGeocoderApi(String appId, String appCode, String baseUrl) {
         super(appId, appCode, baseUrl);
         stringUtils = new StringUtils();

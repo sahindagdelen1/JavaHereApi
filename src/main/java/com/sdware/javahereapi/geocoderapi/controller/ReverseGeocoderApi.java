@@ -10,6 +10,12 @@ public class ReverseGeocoderApi extends BaseApi {
     private StringUtils stringUtils;
     java.util.logging.Logger logger = java.util.logging.Logger.getLogger("ReverseGeocoderApi");
 
+    public ReverseGeocoderApi(String appId, String appCode) {
+        super(appId, appCode);
+        baseUrl = AppParams.GEOCODER_REVERSE_BASE_URL;
+        stringUtils = new StringUtils();
+    }
+
     public ReverseGeocoderApi(String appId, String appCode, String baseUrl) {
         super(appId, appCode, baseUrl);
         stringUtils = new StringUtils();

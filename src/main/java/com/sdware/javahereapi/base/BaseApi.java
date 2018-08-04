@@ -9,6 +9,12 @@ public class BaseApi {
     public String appCode;
     public String baseUrl;
 
+    public BaseApi(String appId, String appCode) {
+        this.appId = appId;
+        this.appCode = appCode;
+        customClientBuilder = new CustomClientBuilder();
+    }
+
     public BaseApi(String appId, String appCode, String baseUrl) {
         this.appId = appId;
         this.appCode = appCode;

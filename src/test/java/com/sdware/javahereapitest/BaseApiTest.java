@@ -18,9 +18,9 @@ public class BaseApiTest {
     }
 
     CloseableHttpClient httpClient;
-    String baseUrl = "http://localhost:9090";
-    private String appId;
-    private String appCode;
+    public String baseUrl = "http://localhost:9090";
+    public String appId;
+    public String appCode;
 
     @Rule
     public WireMockRule mockRule = new WireMockRule(9090);

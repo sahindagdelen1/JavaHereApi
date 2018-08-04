@@ -12,11 +12,17 @@ public class GeocoderApi extends BaseApi {
     private StringUtils stringUtils;
     java.util.logging.Logger logger = java.util.logging.Logger.getLogger("GeocoderApi");
 
+
+    public GeocoderApi(String appId, String appCode) {
+        super(appId, appCode);
+        baseUrl = AppParams.GEOCODER_BASE_URL;
+    }
+
+
     public GeocoderApi(String appId, String appCode, String baseUrl) {
         super(appId, appCode, baseUrl);
         stringUtils = new StringUtils();
     }
-
 
     /**
      * Returns json response as String object which contains latitude,longtitude,details of an address parameters.

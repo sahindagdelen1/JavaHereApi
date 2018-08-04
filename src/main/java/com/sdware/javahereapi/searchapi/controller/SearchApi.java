@@ -1,5 +1,6 @@
 package com.sdware.javahereapi.searchapi.controller;
 
+import com.sdware.javahereapi.base.BaseApi;
 import com.sdware.javahereapi.client.CustomClientBuilder;
 import com.sdware.javahereapi.conf.AppParams;
 import com.sdware.javahereapi.searchapi.entity.CategoryType;
@@ -8,20 +9,17 @@ import com.sdware.javahereapi.searchapi.entity.LocationType;
 import com.sdware.javahereapi.searchapi.entity.LookupSource;
 import org.apache.http.HttpResponse;
 
-public class SearchApi {
-    private String appId;
-    private String appCode;
+public class SearchApi extends BaseApi {
     private CustomClientBuilder customClientBuilder;
-    String baseUrl;
 
     public SearchApi(String appId, String appCode, String baseUrl) {
-        this.appId = appId;
-        this.appCode = appCode;
-        customClientBuilder = new CustomClientBuilder();
-        this.baseUrl = baseUrl;
+        super(appId, appCode, baseUrl);
     }
 
-
+    public SearchApi(String appId, String appCode) {
+        super(appId, appCode);
+        baseUrl = AppParams.PLACES_BASE_URL;
+    }
     /**
      * Returns json response as String object which contains list of suggested
      * places related to given input.
@@ -179,24 +177,6 @@ public class SearchApi {
         String jsonResponseStr = customClientBuilder.getJsonResponse(httpResponse);
         if (jsonResponseStr != null) return jsonResponseStr;
         return "";
-    }
-
-
-
-    public String getAppId() {
-        return appId;
-    }
-
-    public void setAppId(String appId) {
-        this.appId = appId;
-    }
-
-    public String getAppCode() {
-        return appCode;
-    }
-
-    public void setAppCode(String appCode) {
-        this.appCode = appCode;
     }
 
     public CustomClientBuilder getCustomClientBuilder() {
