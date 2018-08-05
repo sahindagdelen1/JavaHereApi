@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <name>JavaHereApi</name>
     <description>A java http client wrapper for HERE Api Webservices.</description>
     <url>https://github.com/sahindagdelen</url>
     <groupId>com.github.sahindagdelen</groupId>
     <artifactId>JavaHereApi</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <developers>
         <developer>
             <name>Sahin Dagdelen</name>
@@ -98,7 +96,7 @@
         <connection>scm:git:git://github.com/sahindagdelen/JavaHereApi.git</connection>
         <developerConnection>scm:git:git@github.com/sahindagdelen/JavaHereApi.git</developerConnection>
         <url>https://github.com/sahindagdelen/JavaHereApi</url>
-        <tag>HEAD</tag>
+        <tag>1.0</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
