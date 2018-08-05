@@ -6,7 +6,7 @@
     <name>JavaHereApi</name>
     <description>A java http client wrapper for HERE Api Webservices.</description>
     <url>https://github.com/sahindagdelen</url>
-    <groupId>com.sdware.javahereapi</groupId>
+    <groupId>com.github.sahindagdelen</groupId>
     <artifactId>JavaHereApi</artifactId>
     <version>1.0</version>
     <developers>
